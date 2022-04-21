@@ -43,8 +43,8 @@ papa.parse(file, {
             let nameFrom = records[i][1]
             let nameTo = records[i][2]
             let narrative = records[i][3]
-            let amount = records[i][4]
-            // console.log(date, nameFrom, nameTo, narrative, amount)
+            let amount = parseFloat(records[i][4])
+
             //Check if people are already in array and add them if not
             if (checkPeople(nameFrom) == false) {
                 addPeople(nameFrom)
@@ -52,16 +52,14 @@ papa.parse(file, {
             if (checkPeople(nameTo) == false) {
                 addPeople(nameTo)
             }
+
             //Find people in array and amend balance
-            // console.log(checkPeople(nameFrom))
-            // console.log(people)
-            people[checkPeople(nameFrom)].balance -= parseFloat(amount)
-            people[checkPeople(nameTo)].balance += parseFloat(amount)
+            people[checkPeople(nameFrom)].balance -= amount
+            people[checkPeople(nameTo)].balance += amount
             //Create a transaction for each
             let transaction = new Transaction(date, nameTo, nameFrom, narrative, amount)
             transactions.push(transaction)
         }
-        console.log(transactions)
 
         //List the name of each person and their balance
         people.forEach((person) => {
