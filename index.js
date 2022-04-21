@@ -1,4 +1,3 @@
-// import * as papa from 'papaparse';
 const fs = require('fs');
 const papa = require('papaparse');
 const file = fs.createReadStream('Transactions2014.csv');
@@ -62,13 +61,27 @@ papa.parse(file, {
             let transaction = new Transaction(date, nameTo, nameFrom, narrative, amount)
             transactions.push(transaction)
         }
-        console.log(people)
+        console.log(transactions)
 
         //List the name of each person and their balance
-        // people.forEach((person) => {
-        //     // console.log(people)
-        //     console.log(`${person.name}: ${person.balance}`)
-        // })
+        people.forEach((person) => {
+            // console.log(people)
+            console.log(`${person.name}: ${person.balance}`)
+        })
+
+        //List transactions associated with person
+        const getTransactions = (person) => {
+            for (let i = 0; i < transactions.length; i++) {
+                if (transactions[i].to === person) {
+                    console.log(`Transaction from ${transactions[i].from} on ${transactions[i].date} for £${transactions[i].amount} for ${transactions[i].narrative}`)
+                }
+                else if (transactions[i].from == person) {
+                    console.log(`Transaction to ${transactions[i].to} on ${transactions[i].date} for £${transactions[i].amount} for ${transactions[i].narrative}`)
+                }
+            }
+        }
+
+        getTransactions('Rob S')
     }
 });
 
