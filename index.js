@@ -1,5 +1,6 @@
 const fs = require('fs');
 const papa = require('papaparse');
+const readlineSync = require("readline-sync");
 const file = fs.createReadStream('Transactions2014.csv');
 
 class Person {
@@ -81,8 +82,22 @@ papa.parse(file, {
             }
         }
 
-        getPeople()
-        getTransactions('Rob S')
+        let readlineSync = require('readline-sync')
+
+        let response = ""
+        while (response.toLowerCase() != 'exit') {
+            response = readlineSync.question('Type "List All" to view accounts, "List [Account]" to view transactions or type "exit" to quit.')
+            if (response.toLowerCase() == "list all") {
+                getPeople()
+            } else if (response.includes('[') && response.includes(']')) {
+                let responseArr = response.split('[')
+                let account = responseArr[1].substring(0, responseArr[1].length-1)
+                getTransactions(account)
+            } else {
+                console.log("Sorry, I didn't get that. Please try again.")
+            }
+        }
+
     }
 });
 
