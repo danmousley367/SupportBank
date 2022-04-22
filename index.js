@@ -119,6 +119,7 @@ const handleParseResults = (results) => {
         //Create a transaction for each
         let transaction = new Transaction(date, nameTo, nameFrom, narrative, amount)
         transactions.push(transaction)
+        logger.debug(`Transaction ${i} logged!`)
     }
 
     //List the name of each person and their balance
