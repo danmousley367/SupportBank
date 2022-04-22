@@ -3,6 +3,8 @@ const papa = require('papaparse');
 const readlineSync = require("readline-sync");
 const file = fs.createReadStream('DodgyTransactions2015.csv');
 const log4js = require("log4js");
+const logger = log4js.getLogger('DodgyTransactions2015.csv');
+
 log4js.configure({
     appenders: {
         file: { type: 'fileSync', filename: 'logs/debug.log' }
@@ -11,6 +13,8 @@ log4js.configure({
         default: { appenders: ['file'], level: 'debug'}
     }
 });
+
+logger.trace("Starting program")
 
 class Person {
     constructor(name, balance) {
@@ -39,15 +43,19 @@ class Transaction {
 }
 
 const handleParseResults = (results) => {
+    logger.debug("Parse complete")
     const records = results.data
     let people = []
     let transactions = []
     const checkPeople = (name) => {
+        logger.debug(`Searching people array for ${name}`)
         for (let i = 0; i < people.length; i++) {
             if (people[i].name == name) {
+                logger.debug(`${name} already in array`)
                 return true
             }
         }
+        logger.debug(`${name} not in array`)
         return false
     }
     const addPeople = (name) => {
@@ -63,24 +71,34 @@ const handleParseResults = (results) => {
         }
     }
     //Iterate through each transaction
-    for (let i = 1; i < records.length; i++) {
+    logger.debug("Iterating through transactions")
+    for (let i = 1; i < records.length; i++) { // Starting at i = 1 to skip header
         const [date, nameFrom, nameTo, narrative, amountString] = records[i]
         const amount = parseFloat(amountString)
 
+        logger.debug(`Transaction ${i}:`)
         //Check if people are already in array and add them if not
         if (!checkPeople(nameFrom)) {
             addPeople(nameFrom)
+            logger.debug(`Adding ${nameFrom} to people array`)
         }
         if (!checkPeople(nameTo)) {
             addPeople(nameTo)
+            logger.debug(`Adding ${nameTo} to people array`)
         }
 
         //Find people in array and amend balance and update transaction
         const personFrom = people[findPerson(nameFrom)]
         const personTo = people[findPerson(nameTo)]
+
+            logger.debug(`Deducting ${amount} from ${nameFrom}'s balance`)
         personFrom.balance -= amount
-        personFrom.transactions.push([date, nameFrom, nameTo, narrative, amount]) //This doesn't work
+        // if (amount.isNaN()) {logger.error(`${amount} is not a number`)}
+        logger.debug(`Adding ${amount} to ${nameTo}'s balance`)
         personTo.balance += amount
+        // if (amount.isNaN()) {logger.error(`${amount} is not a number`)}
+
+        personFrom.transactions.push([date, nameFrom, nameTo, narrative, amount]) //This doesn't work
         personTo.transactions.push([date, nameFrom, nameTo, narrative, amount]) // This doesn't work
 
         //Create a transaction for each
@@ -118,12 +136,15 @@ const handleParseResults = (results) => {
             let responseArr = response.split('[')
             let account = responseArr[1].substring(0, responseArr[1].length-1)
             getTransactions(account)
+        } else if (response.toLowerCase() == "exit") {
+            console.log("Exiting programme")
         } else {
             console.log("Sorry, I didn't get that. Please try again.")
         }
     }
 }
 
+logger.debug(`Parsing file${file.path}`)
 papa.parse(file, { complete: handleParseResults });
 
 
