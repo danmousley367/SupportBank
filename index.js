@@ -66,7 +66,7 @@ papa.parse(file, {
         const getPeople = () => {
             people.forEach((person) => {
                 // console.log(people)
-                console.log(`${person.name}: £${person.balance}`)
+                console.log(`${person.name}: £${person.balance.toFixed(2)}`)
             })
         }
 
@@ -81,8 +81,6 @@ papa.parse(file, {
                 }
             }
         }
-
-        let readlineSync = require('readline-sync')
 
         let response = ""
         while (response.toLowerCase() != 'exit') {
