@@ -23,13 +23,12 @@ class Transaction {
 papa.parse(file, {
     complete: (results) => {
         let records = results.data
-        // console.log(records)
         let people = []
         let transactions = []
         let checkPeople = (name) => {
             for (let i = 0; i < people.length; i++) {
                 if (people[i].name == name) {
-                    return i
+                    return true
                 }
             }
             return false
@@ -37,6 +36,14 @@ papa.parse(file, {
         const addPeople = (name) => {
             let person = new Person(name, 0.00)
             people.push(person)
+            // console.log(person)
+        }
+        let checkBalance = (name) => {
+            for (let i = 0; i < people.length; i++) {
+                if (people[i].name == name) {
+                    return i
+                }
+            }
         }
         //Iterate through each transaction
         for (let i = 1; i < records.length; i++) {
@@ -49,14 +56,16 @@ papa.parse(file, {
             //Check if people are already in array and add them if not
             if (checkPeople(nameFrom) == false) {
                 addPeople(nameFrom)
+                console.log(people)
             }
             if (checkPeople(nameTo) == false) {
                 addPeople(nameTo)
+                console.log(people)
             }
 
             //Find people in array and amend balance
-            people[checkPeople(nameFrom)].balance -= amount
-            people[checkPeople(nameTo)].balance += amount
+            people[checkBalance(nameFrom)].balance -= amount
+            people[checkBalance(nameTo)].balance += amount
             //Create a transaction for each
             let transaction = new Transaction(date, nameTo, nameFrom, narrative, amount)
             transactions.push(transaction)
@@ -65,7 +74,6 @@ papa.parse(file, {
         //List the name of each person and their balance
         const getPeople = () => {
             people.forEach((person) => {
-                // console.log(people)
                 console.log(`${person.name}: £${person.balance.toFixed(2)}`)
             })
         }
