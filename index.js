@@ -25,16 +25,16 @@ papa.parse(file, {
         // console.log(records)
         let people = []
         let transactions = []
-        let checkPeople = (foo) => {
+        let checkPeople = (name) => {
             for (let i = 0; i < people.length; i++) {
-                if (people[i].name == foo) {
+                if (people[i].name == name) {
                     return i
                 }
             }
             return false
         }
-        const addPeople = (baz) => {
-            let person = new Person(baz, 0.00)
+        const addPeople = (name) => {
+            let person = new Person(name, 0.00)
             people.push(person)
         }
         //Iterate through each transaction
@@ -62,10 +62,12 @@ papa.parse(file, {
         }
 
         //List the name of each person and their balance
-        people.forEach((person) => {
-            // console.log(people)
-            console.log(`${person.name}: ${person.balance}`)
-        })
+        const getPeople = () => {
+            people.forEach((person) => {
+                // console.log(people)
+                console.log(`${person.name}: £${person.balance}`)
+            })
+        }
 
         //List transactions associated with person
         const getTransactions = (person) => {
@@ -79,6 +81,7 @@ papa.parse(file, {
             }
         }
 
+        getPeople()
         getTransactions('Rob S')
     }
 });
