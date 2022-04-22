@@ -47,6 +47,7 @@ const handleParseResults = (results) => {
     const records = results.data
     let people = []
     let transactions = []
+    let voidTransactions = []
     const checkPeople = (name) => {
         logger.debug(`Searching people array for ${name}`)
         for (let i = 0; i < people.length; i++) {
@@ -70,13 +71,19 @@ const handleParseResults = (results) => {
             }
         }
     }
+
+    const checkDate = (date) => {
+        let format = /^\d{2}\/\d{2}\/\d{4}/
+        return date.match(format)
+    }
+
     //Iterate through each transaction
     logger.debug("Iterating through transactions")
     for (let i = 1; i < records.length; i++) { // Starting at i = 1 to skip header
         const [date, nameFrom, nameTo, narrative, amountString] = records[i]
         const amount = parseFloat(amountString)
-
         logger.debug(`Transaction ${i}:`)
+
         //Check if people are already in array and add them if not
         if (!checkPeople(nameFrom)) {
             addPeople(nameFrom)
@@ -91,15 +98,23 @@ const handleParseResults = (results) => {
         const personFrom = people[findPerson(nameFrom)]
         const personTo = people[findPerson(nameTo)]
 
+        if (isNaN(amount)) {
+            logger.error(`${amountString} is not a cash balance`)
+            console.log(`The amount for transaction ${i} is not a cash balance`)
+            voidTransactions.push([date, nameFrom, nameTo, narrative, amount])
+        } else if (checkDate(date) == null) {
+            logger.error(`${date} is not the correct format`)
+            console.log(`The date on transaction ${i} is not the correct format`)
+            voidTransactions.push([date, nameFrom, nameTo, narrative, amount])
+        } else {
             logger.debug(`Deducting ${amount} from ${nameFrom}'s balance`)
-        personFrom.balance -= amount
-        // if (amount.isNaN()) {logger.error(`${amount} is not a number`)}
-        logger.debug(`Adding ${amount} to ${nameTo}'s balance`)
-        personTo.balance += amount
-        // if (amount.isNaN()) {logger.error(`${amount} is not a number`)}
+            personFrom.balance -= amount
+            logger.debug(`Adding ${amount} to ${nameTo}'s balance`)
+            personTo.balance += amount
 
-        personFrom.transactions.push([date, nameFrom, nameTo, narrative, amount]) //This doesn't work
-        personTo.transactions.push([date, nameFrom, nameTo, narrative, amount]) // This doesn't work
+            personFrom.transactions.push([date, nameFrom, nameTo, narrative, amount]) //This doesn't work
+            personTo.transactions.push([date, nameFrom, nameTo, narrative, amount]) // This doesn't work
+        }
 
         //Create a transaction for each
         let transaction = new Transaction(date, nameTo, nameFrom, narrative, amount)
