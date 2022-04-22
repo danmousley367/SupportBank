@@ -1,12 +1,30 @@
 const fs = require('fs');
 const papa = require('papaparse');
 const readlineSync = require("readline-sync");
-const file = fs.createReadStream('Transactions2014.csv');
+const file = fs.createReadStream('DodgyTransactions2015.csv');
+const log4js = require("log4js");
+log4js.configure({
+    appenders: {
+        file: { type: 'fileSync', filename: 'logs/debug.log' }
+    },
+    categories: {
+        default: { appenders: ['file'], level: 'debug'}
+    }
+});
 
 class Person {
     constructor(name, balance) {
         this.name = name
         this.balance = balance
+        this.transactions = []
+    }
+
+    showBalance() {
+        console.log(`${this.name} has a balance of £${this.balance.toFixed(2)}`)
+    }
+
+    showTransactions() {
+        console.log(this.transactions)
     }
 }
 
@@ -37,7 +55,7 @@ const handleParseResults = (results) => {
         people.push(person)
         // console.log(person)
     }
-    const checkBalance = (name) => {
+    const findPerson = (name) => {
         for (let i = 0; i < people.length; i++) {
             if (people[i].name == name) {
                 return i
@@ -46,23 +64,25 @@ const handleParseResults = (results) => {
     }
     //Iterate through each transaction
     for (let i = 1; i < records.length; i++) {
-        const date = records[i][0]
-        const nameFrom = records[i][1]
-        const nameTo = records[i][2]
-        const narrative = records[i][3]
-        const amount = parseFloat(records[i][4])
+        const [date, nameFrom, nameTo, narrative, amountString] = records[i]
+        const amount = parseFloat(amountString)
 
         //Check if people are already in array and add them if not
-        if (checkPeople(nameFrom) == false) {
+        if (!checkPeople(nameFrom)) {
             addPeople(nameFrom)
         }
-        if (checkPeople(nameTo) == false) {
+        if (!checkPeople(nameTo)) {
             addPeople(nameTo)
         }
 
-        //Find people in array and amend balance
-        people[checkBalance(nameFrom)].balance -= amount
-        people[checkBalance(nameTo)].balance += amount
+        //Find people in array and amend balance and update transaction
+        const personFrom = people[findPerson(nameFrom)]
+        const personTo = people[findPerson(nameTo)]
+        personFrom.balance -= amount
+        personFrom.transactions.push([date, nameFrom, nameTo, narrative, amount]) //This doesn't work
+        personTo.balance += amount
+        personTo.transactions.push([date, nameFrom, nameTo, narrative, amount]) // This doesn't work
+
         //Create a transaction for each
         let transaction = new Transaction(date, nameTo, nameFrom, narrative, amount)
         transactions.push(transaction)
@@ -71,12 +91,14 @@ const handleParseResults = (results) => {
     //List the name of each person and their balance
     const getPeople = () => {
         people.forEach((person) => {
-            console.log(`${person.name}: £${person.balance.toFixed(2)}`)
+            person.showBalance()
         })
     }
 
     //List transactions associated with person
     const getTransactions = (person) => {
+        // person.showTransactions()
+        // console.log(person.transactions)
         for (let i = 0; i < transactions.length; i++) {
             if (transactions[i].to === person) {
                 console.log(`Transaction from ${transactions[i].from} on ${transactions[i].date} for £${transactions[i].amount} for ${transactions[i].narrative}`)

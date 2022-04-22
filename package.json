@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/danmousley367/SupportBank#readme",
   "dependencies": {
+    "log4js": "^6.4.5",
     "papaparse": "^5.3.2",
     "readline-sync": "^1.4.10"
   }
