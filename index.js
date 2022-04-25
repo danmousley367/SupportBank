@@ -1,10 +1,11 @@
 const fs = require('fs');
 const papa = require('papaparse');
 const readlineSync = require("readline-sync");
-
 const log4js = require("log4js");
-const logger = log4js.getLogger('DodgyTransactions2015.csv');
 const moment = require("moment");
+
+const userFile = readlineSync.question('Please enter a file to process with "Import File [filename], or type "exit" to quit.')
+const logger = log4js.getLogger(`${userFile}`);
 
 log4js.configure({
     appenders: {
@@ -49,33 +50,37 @@ class Person {
 const handleParseResults = (results, fileType) => {
     logger.debug("Parse complete")
     const records = fileType === "json" ? results : results.data
-    let people = []
+    const people = []
 
     const checkPeople = (name) => {
-        logger.debug(`Searching people array for ${name}`)
-        for (let i = 0; i < people.length; i++) {
-            if (people[i].name == name) {
-                logger.debug(`${name} already in array`)
-                return true
-            }
-        }
-        logger.debug(`${name} not in array`)
-        return false
+        return people.some((person) => person.name === name)
+        // for (let i = 0; i < people.length; i++) {
+        //     if (people[i].name === name) {
+        //         logger.debug(`${name} already in array`)
+        //         return true
+        //     }
+        // }
+        // return false
     }
     const addPeople = (name) => {
-        let person = new Person(name, 0.00)
+        const person = new Person(name, 0.00)
         people.push(person)
     }
     const findPerson = (name) => {
+        // return people.find((person, index) => {
+        //     if (person.name === name) {
+        //         return index
+        //     }
+        // })
         for (let i = 0; i < people.length; i++) {
-            if (people[i].name == name) {
+            if (people[i].name === name) {
                 return i
             }
         }
     }
 
     const checkDate = (date) => {
-        let format = /^\d{2}\/\d{2}\/\d{4}/
+        const format = /^\d{2}\/\d{2}\/\d{4}/
         return date.match(format)
     }
 
@@ -115,7 +120,7 @@ const handleParseResults = (results, fileType) => {
 
             personFrom.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason])
             personTo.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason])
-        } else if (checkDate(date) == null) {
+        } else if (checkDate(date) === null) {
             logger.error(`${date} on transaction ${i} is not the correct format`)
             const reason = `The date on transaction ${i} is not the correct format`
             console.log(reason)
@@ -151,17 +156,17 @@ const handleParseResults = (results, fileType) => {
     while (response.toLowerCase() != 'exit') {
         logger.debug("Requesting command from the user")
         response = readlineSync.question('Type "List All" to view accounts, "List [Account]" to view transactions or type "exit" to quit.')
-        if (response.toLowerCase() == "list all") {
+        if (response.toLowerCase() === "list all") {
             logger.debug("Listing all accounts and balances")
             getPeople()
             logger.debug("Accounts successfully printed")
         } else if (response.includes('[') && response.includes(']')) {
-            let responseArr = response.split('[')
-            let account = responseArr[1].substring(0, responseArr[1].length-1)
+            const responseArr = response.split('[')
+            const account = responseArr[1].substring(0, responseArr[1].length-1)
             logger.debug(`Listing transactions for ${account}`)
             getTransactions(account)
             logger.debug("Transactions listed")
-        } else if (response.toLowerCase() == "exit") {
+        } else if (response.toLowerCase() === "exit") {
             console.log("Exiting programme")
             logger.debug("Programme exited")
         } else {
@@ -171,16 +176,15 @@ const handleParseResults = (results, fileType) => {
     }
 }
 
-let userFile = readlineSync.question('Please enter a file to process with "Import File [filename], or type "exit" to quit.')
-console.log(userFile.slice(-4))
 if (userFile.slice(-4) === "json") {
     const transactions = require(`./${userFile}`)
-    let transactionsArr = []
+    const transactionsArr = []
 
+    logger.debug(`Parsing file${userFile}`)
     for (let i = 0; i < transactions.length; i++) {
         const transaction = JSON.stringify(transactions[i])
         const transactionArr = JSON.parse(transaction, (key, value) => {
-            if (key == "Date") {
+            if (key === "Date") {
                 return moment(value, "YYYY-MM-DD").format("DD/MM/YYYY")
             } else {
                 return value
@@ -192,9 +196,10 @@ if (userFile.slice(-4) === "json") {
     handleParseResults(transactionsArr, "json")
 } else if (userFile.slice(-3) === "csv") {
     const file = fs.createReadStream(`${userFile}`);
+    logger.debug(`Parsing file${file.path}`)
     papa.parse(file, { complete: handleParseResults });
 }
-// logger.debug(`Parsing file${file.path}`)
+
 
 
 
