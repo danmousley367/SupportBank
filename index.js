@@ -4,6 +4,11 @@ const readlineSync = require("readline-sync");
 const file = fs.createReadStream('DodgyTransactions2015.csv');
 const log4js = require("log4js");
 const logger = log4js.getLogger('DodgyTransactions2015.csv');
+const transactions2013 = require("./Transactions2013.json")
+
+console.log(transactions2013[0])
+let parsedTransactions = JSON.parse(JSON.stringify(transactions2013[0]))
+console.log(parsedTransactions)
 
 log4js.configure({
     appenders: {
