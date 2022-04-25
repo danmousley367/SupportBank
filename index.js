@@ -21,6 +21,7 @@ class Person {
         this.name = name
         this.balance = balance
         this.transactions = []
+        this.voidTransactions = []
     }
 
     showBalance() {
@@ -28,7 +29,22 @@ class Person {
     }
 
     showTransactions() {
-        console.log(this.transactions)
+        console.log("This person has the following valid transactions:")
+        for (let i = 0; i < this.transactions.length; i++) {
+            const [date, nameFrom, nameTo, narrative, amount] = this.transactions[i]
+            console.log(`Transaction from ${nameFrom} to ${nameTo} on ${date} for £${amount} for ${narrative}`)
+        }
+
+        // console.log(this.transactions)
+    }
+
+    showVoidTransactions() {
+        console.log("NOTE - This person has the following invalid transactions:")
+        for (let i = 0; i < this.voidTransactions.length; i++) {
+            const [date, nameFrom, nameTo, narrative, amount, amountString, reason] = this.voidTransactions[i]
+            console.log(`Transaction from ${nameFrom} to ${nameTo} on ${date} for ${amountString} for ${narrative} is invalid because ${reason}`)
+        }
+        // console.log(this.voidTransactions)
     }
 }
 
@@ -100,12 +116,20 @@ const handleParseResults = (results) => {
 
         if (isNaN(amount)) {
             logger.error(`${amountString} is not a cash balance`)
-            console.log(`The amount for transaction ${i} is not a cash balance`)
-            voidTransactions.push([date, nameFrom, nameTo, narrative, amount])
+            const reason = `The amount for transaction ${i} is not a cash balance`
+            console.log(reason)
+            voidTransactions.push([date, nameFrom, nameTo, narrative, amountString, reason])
+
+            personFrom.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason]) //This doesn't work
+            personTo.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason]) // This doesn't work
         } else if (checkDate(date) == null) {
             logger.error(`${date} is not the correct format`)
-            console.log(`The date on transaction ${i} is not the correct format`)
-            voidTransactions.push([date, nameFrom, nameTo, narrative, amount])
+            const reason = `The date on transaction ${i} is not the correct format`
+            console.log(reason)
+            voidTransactions.push([date, nameFrom, nameTo, narrative, amount, reason])
+
+            personFrom.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason]) //This doesn't work
+            personTo.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason]) // This doesn't work
         } else {
             logger.debug(`Deducting ${amount} from ${nameFrom}'s balance`)
             personFrom.balance -= amount
@@ -130,17 +154,19 @@ const handleParseResults = (results) => {
     }
 
     //List transactions associated with person
-    const getTransactions = (person) => {
-        // person.showTransactions()
+    const getTransactions = (name) => {
+        const person = people[findPerson(name)]
+        person.showTransactions()
         // console.log(person.transactions)
-        for (let i = 0; i < transactions.length; i++) {
-            if (transactions[i].to === person) {
-                console.log(`Transaction from ${transactions[i].from} on ${transactions[i].date} for £${transactions[i].amount} for ${transactions[i].narrative}`)
-            }
-            else if (transactions[i].from == person) {
-                console.log(`Transaction to ${transactions[i].to} on ${transactions[i].date} for £${transactions[i].amount} for ${transactions[i].narrative}`)
-            }
-        }
+        if (person.voidTransactions.length) { person.showVoidTransactions() }
+        // for (let i = 0; i < transactions.length; i++) {
+        //     if (transactions[i].to === person) {
+        //         console.log(`Transaction from ${transactions[i].from} on ${transactions[i].date} for £${transactions[i].amount} for ${transactions[i].narrative}`)
+        //     }
+        //     else if (transactions[i].from == person) {
+        //         console.log(`Transaction to ${transactions[i].to} on ${transactions[i].date} for £${transactions[i].amount} for ${transactions[i].narrative}`)
+        //     }
+        // }
     }
 
     let response = ""
