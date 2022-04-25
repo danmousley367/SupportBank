@@ -79,20 +79,17 @@ const handleParseResults = (results) => {
     }
 
     //Iterate through each transaction
-    logger.debug("Iterating through transactions")
+    logger.debug("Iterating through transactions...")
     for (let i = 1; i < records.length; i++) { // Starting at i = 1 to skip header
         const [date, nameFrom, nameTo, narrative, amountString] = records[i]
         const amount = parseFloat(amountString)
-        logger.debug(`Transaction ${i}:`)
 
         //Check if people are already in array and add them if not
         if (!checkPeople(nameFrom)) {
             addPeople(nameFrom)
-            logger.debug(`Adding ${nameFrom} to people array`)
         }
         if (!checkPeople(nameTo)) {
             addPeople(nameTo)
-            logger.debug(`Adding ${nameTo} to people array`)
         }
 
         //Find people in array and amend balance and update transaction
@@ -100,30 +97,28 @@ const handleParseResults = (results) => {
         const personTo = people[findPerson(nameTo)]
 
         if (isNaN(amount)) {
-            logger.error(`${amountString} is not a cash balance`)
+            logger.error(`${amountString} on transaction ${i} is not a cash balance`)
             const reason = `The amount for transaction ${i} is not a cash balance`
             console.log(reason)
 
             personFrom.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason])
             personTo.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason])
         } else if (checkDate(date) == null) {
-            logger.error(`${date} is not the correct format`)
+            logger.error(`${date} on transaction ${i} is not the correct format`)
             const reason = `The date on transaction ${i} is not the correct format`
             console.log(reason)
 
             personFrom.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason])
             personTo.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason])
         } else {
-            logger.debug(`Deducting ${amount} from ${nameFrom}'s balance`)
             personFrom.balance -= amount
-            logger.debug(`Adding ${amount} to ${nameTo}'s balance`)
             personTo.balance += amount
 
             personFrom.transactions.push([date, nameFrom, nameTo, narrative, amount])
             personTo.transactions.push([date, nameFrom, nameTo, narrative, amount])
         }
 
-        logger.debug(`Transaction ${i} logged!`)
+        logger.debug(`Transaction ${i} validated!`)
     }
 
     //List the name of each person and their balance
@@ -142,17 +137,24 @@ const handleParseResults = (results) => {
 
     let response = ""
     while (response.toLowerCase() != 'exit') {
+        logger.debug("Requesting command from the user")
         response = readlineSync.question('Type "List All" to view accounts, "List [Account]" to view transactions or type "exit" to quit.')
         if (response.toLowerCase() == "list all") {
+            logger.debug("Listing all accounts and balances")
             getPeople()
+            logger.debug("Accounts successfully printed")
         } else if (response.includes('[') && response.includes(']')) {
             let responseArr = response.split('[')
             let account = responseArr[1].substring(0, responseArr[1].length-1)
+            logger.debug(`Listing transactions for ${account}`)
             getTransactions(account)
+            logger.debug("Transactions listed")
         } else if (response.toLowerCase() == "exit") {
             console.log("Exiting programme")
+            logger.debug("Programme exited")
         } else {
             console.log("Sorry, I didn't get that. Please try again.")
+            logger.debug("Invalid request by the user")
         }
     }
 }
