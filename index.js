@@ -47,6 +47,17 @@ class Person {
     }
 }
 
+class Transaction {
+    constructor(date, nameFrom, nameTo, narrative, amount, reason ) {
+        this.date = date
+        this.nameFrom = nameFrom
+        this.nameTo = nameTo
+        this.narrative = narrative
+        this.amount = amount
+        this.reason = reason
+    }
+}
+
 const handleParseResults = (results, fileType) => {
     logger.debug("Parse complete")
     const records = fileType === "json" ? results : results.data
@@ -54,29 +65,13 @@ const handleParseResults = (results, fileType) => {
 
     const checkPeople = (name) => {
         return people.some((person) => person.name === name)
-        // for (let i = 0; i < people.length; i++) {
-        //     if (people[i].name === name) {
-        //         logger.debug(`${name} already in array`)
-        //         return true
-        //     }
-        // }
-        // return false
     }
     const addPeople = (name) => {
         const person = new Person(name, 0.00)
         people.push(person)
     }
     const findPerson = (name) => {
-        // return people.find((person, index) => {
-        //     if (person.name === name) {
-        //         return index
-        //     }
-        // })
-        for (let i = 0; i < people.length; i++) {
-            if (people[i].name === name) {
-                return i
-            }
-        }
+        return people.findIndex((person) => person.name === name)
     }
 
     const checkDate = (date) => {
