@@ -7508,3 +7508,424 @@
 [2022-04-25T09:56:17.567] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
 [2022-04-25T09:56:17.567] [ERROR] DodgyTransactions2015.csv - Last Thursday is not the correct format
 [2022-04-25T09:56:17.568] [DEBUG] DodgyTransactions2015.csv - Transaction 51 logged!
+[2022-04-25T10:17:32.517] [DEBUG] DodgyTransactions2015.csv - Parsing fileDodgyTransactions2015.csv
+[2022-04-25T10:17:32.523] [DEBUG] DodgyTransactions2015.csv - Parse complete
+[2022-04-25T10:17:32.524] [DEBUG] DodgyTransactions2015.csv - Iterating through transactions
+[2022-04-25T10:17:32.524] [DEBUG] DodgyTransactions2015.csv - Transaction 1:
+[2022-04-25T10:17:32.524] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T10:17:32.524] [DEBUG] DodgyTransactions2015.csv - Laura B not in array
+[2022-04-25T10:17:32.524] [DEBUG] DodgyTransactions2015.csv - Adding Laura B to people array
+[2022-04-25T10:17:32.524] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T10:17:32.525] [DEBUG] DodgyTransactions2015.csv - Sarah T not in array
+[2022-04-25T10:17:32.525] [DEBUG] DodgyTransactions2015.csv - Adding Sarah T to people array
+[2022-04-25T10:17:32.525] [DEBUG] DodgyTransactions2015.csv - Deducting 10.54 from Laura B's balance
+[2022-04-25T10:17:32.525] [DEBUG] DodgyTransactions2015.csv - Adding 10.54 to Sarah T's balance
+[2022-04-25T10:17:32.525] [DEBUG] DodgyTransactions2015.csv - Transaction 1 logged!
+[2022-04-25T10:17:32.526] [DEBUG] DodgyTransactions2015.csv - Transaction 2:
+[2022-04-25T10:17:32.526] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T10:17:32.526] [DEBUG] DodgyTransactions2015.csv - Stephen S not in array
+[2022-04-25T10:17:32.526] [DEBUG] DodgyTransactions2015.csv - Adding Stephen S to people array
+[2022-04-25T10:17:32.526] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T10:17:32.526] [DEBUG] DodgyTransactions2015.csv - Gergana I not in array
+[2022-04-25T10:17:32.526] [DEBUG] DodgyTransactions2015.csv - Adding Gergana I to people array
+[2022-04-25T10:17:32.527] [DEBUG] DodgyTransactions2015.csv - Deducting 3.22 from Stephen S's balance
+[2022-04-25T10:17:32.527] [DEBUG] DodgyTransactions2015.csv - Adding 3.22 to Gergana I's balance
+[2022-04-25T10:17:32.527] [DEBUG] DodgyTransactions2015.csv - Transaction 2 logged!
+[2022-04-25T10:17:32.527] [DEBUG] DodgyTransactions2015.csv - Transaction 3:
+[2022-04-25T10:17:32.527] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T10:17:32.527] [DEBUG] DodgyTransactions2015.csv - Ben B not in array
+[2022-04-25T10:17:32.528] [DEBUG] DodgyTransactions2015.csv - Adding Ben B to people array
+[2022-04-25T10:17:32.528] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T10:17:32.528] [DEBUG] DodgyTransactions2015.csv - Jon A not in array
+[2022-04-25T10:17:32.528] [DEBUG] DodgyTransactions2015.csv - Adding Jon A to people array
+[2022-04-25T10:17:32.528] [DEBUG] DodgyTransactions2015.csv - Deducting 9.93 from Ben B's balance
+[2022-04-25T10:17:32.528] [DEBUG] DodgyTransactions2015.csv - Adding 9.93 to Jon A's balance
+[2022-04-25T10:17:32.528] [DEBUG] DodgyTransactions2015.csv - Transaction 3 logged!
+[2022-04-25T10:17:32.529] [DEBUG] DodgyTransactions2015.csv - Transaction 4:
+[2022-04-25T10:17:32.529] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T10:17:32.529] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T10:17:32.529] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T10:17:32.529] [DEBUG] DodgyTransactions2015.csv - Todd not in array
+[2022-04-25T10:17:32.529] [DEBUG] DodgyTransactions2015.csv - Adding Todd to people array
+[2022-04-25T10:17:32.529] [DEBUG] DodgyTransactions2015.csv - Deducting 7.33 from Ben B's balance
+[2022-04-25T10:17:32.530] [DEBUG] DodgyTransactions2015.csv - Adding 7.33 to Todd's balance
+[2022-04-25T10:17:32.530] [DEBUG] DodgyTransactions2015.csv - Transaction 4 logged!
+[2022-04-25T10:17:32.530] [DEBUG] DodgyTransactions2015.csv - Transaction 5:
+[2022-04-25T10:17:32.530] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T10:17:32.530] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T10:17:32.530] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T10:17:32.531] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T10:17:32.531] [DEBUG] DodgyTransactions2015.csv - Deducting 8.94 from Laura B's balance
+[2022-04-25T10:17:32.531] [DEBUG] DodgyTransactions2015.csv - Adding 8.94 to Ben B's balance
+[2022-04-25T10:17:32.531] [DEBUG] DodgyTransactions2015.csv - Transaction 5 logged!
+[2022-04-25T10:17:32.531] [DEBUG] DodgyTransactions2015.csv - Transaction 6:
+[2022-04-25T10:17:32.531] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T10:17:32.531] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T10:17:32.532] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T10:17:32.532] [DEBUG] DodgyTransactions2015.csv - Rob S not in array
+[2022-04-25T10:17:32.532] [DEBUG] DodgyTransactions2015.csv - Adding Rob S to people array
+[2022-04-25T10:17:32.532] [DEBUG] DodgyTransactions2015.csv - Deducting 10.19 from Todd's balance
+[2022-04-25T10:17:32.533] [DEBUG] DodgyTransactions2015.csv - Adding 10.19 to Rob S's balance
+[2022-04-25T10:17:32.533] [DEBUG] DodgyTransactions2015.csv - Transaction 6 logged!
+[2022-04-25T10:17:32.533] [DEBUG] DodgyTransactions2015.csv - Transaction 7:
+[2022-04-25T10:17:32.533] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T10:17:32.533] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T10:17:32.534] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T10:17:32.534] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T10:17:32.534] [DEBUG] DodgyTransactions2015.csv - Deducting 0.69 from Laura B's balance
+[2022-04-25T10:17:32.534] [DEBUG] DodgyTransactions2015.csv - Adding 0.69 to Jon A's balance
+[2022-04-25T10:17:32.534] [DEBUG] DodgyTransactions2015.csv - Transaction 7 logged!
+[2022-04-25T10:17:32.534] [DEBUG] DodgyTransactions2015.csv - Transaction 8:
+[2022-04-25T10:17:32.534] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T10:17:32.534] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T10:17:32.535] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T10:17:32.535] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T10:17:32.535] [DEBUG] DodgyTransactions2015.csv - Deducting 10.73 from Jon A's balance
+[2022-04-25T10:17:32.535] [DEBUG] DodgyTransactions2015.csv - Adding 10.73 to Sarah T's balance
+[2022-04-25T10:17:32.535] [DEBUG] DodgyTransactions2015.csv - Transaction 8 logged!
+[2022-04-25T10:17:32.536] [DEBUG] DodgyTransactions2015.csv - Transaction 9:
+[2022-04-25T10:17:32.536] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T10:17:32.536] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T10:17:32.536] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T10:17:32.536] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T10:17:32.536] [DEBUG] DodgyTransactions2015.csv - Deducting 0.8 from Gergana I's balance
+[2022-04-25T10:17:32.537] [DEBUG] DodgyTransactions2015.csv - Adding 0.8 to Todd's balance
+[2022-04-25T10:17:32.537] [DEBUG] DodgyTransactions2015.csv - Transaction 9 logged!
+[2022-04-25T10:17:32.537] [DEBUG] DodgyTransactions2015.csv - Transaction 10:
+[2022-04-25T10:17:32.537] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T10:17:32.537] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T10:17:32.537] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T10:17:32.537] [DEBUG] DodgyTransactions2015.csv - Chris W not in array
+[2022-04-25T10:17:32.538] [DEBUG] DodgyTransactions2015.csv - Adding Chris W to people array
+[2022-04-25T10:17:32.538] [DEBUG] DodgyTransactions2015.csv - Deducting 8.49 from Gergana I's balance
+[2022-04-25T10:17:32.538] [DEBUG] DodgyTransactions2015.csv - Adding 8.49 to Chris W's balance
+[2022-04-25T10:17:32.538] [DEBUG] DodgyTransactions2015.csv - Transaction 10 logged!
+[2022-04-25T10:17:32.538] [DEBUG] DodgyTransactions2015.csv - Transaction 11:
+[2022-04-25T10:17:32.538] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T10:17:32.538] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T10:17:32.539] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T10:17:32.539] [DEBUG] DodgyTransactions2015.csv - Tim L not in array
+[2022-04-25T10:17:32.539] [DEBUG] DodgyTransactions2015.csv - Adding Tim L to people array
+[2022-04-25T10:17:32.539] [DEBUG] DodgyTransactions2015.csv - Deducting 0.52 from Laura B's balance
+[2022-04-25T10:17:32.539] [DEBUG] DodgyTransactions2015.csv - Adding 0.52 to Tim L's balance
+[2022-04-25T10:17:32.539] [DEBUG] DodgyTransactions2015.csv - Transaction 11 logged!
+[2022-04-25T10:17:32.539] [DEBUG] DodgyTransactions2015.csv - Transaction 12:
+[2022-04-25T10:17:32.539] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T10:17:32.540] [DEBUG] DodgyTransactions2015.csv - Sam N not in array
+[2022-04-25T10:17:32.540] [DEBUG] DodgyTransactions2015.csv - Adding Sam N to people array
+[2022-04-25T10:17:32.540] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T10:17:32.540] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T10:17:32.540] [DEBUG] DodgyTransactions2015.csv - Deducting 9.01 from Sam N's balance
+[2022-04-25T10:17:32.541] [DEBUG] DodgyTransactions2015.csv - Adding 9.01 to Chris W's balance
+[2022-04-25T10:17:32.541] [DEBUG] DodgyTransactions2015.csv - Transaction 12 logged!
+[2022-04-25T10:17:32.541] [DEBUG] DodgyTransactions2015.csv - Transaction 13:
+[2022-04-25T10:17:32.541] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T10:17:32.541] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T10:17:32.541] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T10:17:32.542] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T10:17:32.542] [DEBUG] DodgyTransactions2015.csv - Deducting 7.53 from Stephen S's balance
+[2022-04-25T10:17:32.542] [DEBUG] DodgyTransactions2015.csv - Adding 7.53 to Laura B's balance
+[2022-04-25T10:17:32.542] [DEBUG] DodgyTransactions2015.csv - Transaction 13 logged!
+[2022-04-25T10:17:32.543] [DEBUG] DodgyTransactions2015.csv - Transaction 14:
+[2022-04-25T10:17:32.543] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T10:17:32.543] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T10:17:32.543] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T10:17:32.543] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T10:17:32.543] [DEBUG] DodgyTransactions2015.csv - Deducting 7.43 from Stephen S's balance
+[2022-04-25T10:17:32.543] [DEBUG] DodgyTransactions2015.csv - Adding 7.43 to Rob S's balance
+[2022-04-25T10:17:32.543] [DEBUG] DodgyTransactions2015.csv - Transaction 14 logged!
+[2022-04-25T10:17:32.544] [DEBUG] DodgyTransactions2015.csv - Transaction 15:
+[2022-04-25T10:17:32.544] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T10:17:32.544] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T10:17:32.544] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T10:17:32.544] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T10:17:32.544] [DEBUG] DodgyTransactions2015.csv - Deducting 5.78 from Rob S's balance
+[2022-04-25T10:17:32.544] [DEBUG] DodgyTransactions2015.csv - Adding 5.78 to Stephen S's balance
+[2022-04-25T10:17:32.544] [DEBUG] DodgyTransactions2015.csv - Transaction 15 logged!
+[2022-04-25T10:17:32.544] [DEBUG] DodgyTransactions2015.csv - Transaction 16:
+[2022-04-25T10:17:32.545] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T10:17:32.545] [DEBUG] DodgyTransactions2015.csv - Dan W not in array
+[2022-04-25T10:17:32.545] [DEBUG] DodgyTransactions2015.csv - Adding Dan W to people array
+[2022-04-25T10:17:32.545] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T10:17:32.545] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T10:17:32.545] [DEBUG] DodgyTransactions2015.csv - Deducting 10.29 from Dan W's balance
+[2022-04-25T10:17:32.545] [DEBUG] DodgyTransactions2015.csv - Adding 10.29 to Gergana I's balance
+[2022-04-25T10:17:32.546] [DEBUG] DodgyTransactions2015.csv - Transaction 16 logged!
+[2022-04-25T10:17:32.546] [DEBUG] DodgyTransactions2015.csv - Transaction 17:
+[2022-04-25T10:17:32.546] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T10:17:32.546] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T10:17:32.546] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T10:17:32.546] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T10:17:32.547] [DEBUG] DodgyTransactions2015.csv - Deducting 7.37 from Jon A's balance
+[2022-04-25T10:17:32.547] [DEBUG] DodgyTransactions2015.csv - Adding 7.37 to Chris W's balance
+[2022-04-25T10:17:32.547] [DEBUG] DodgyTransactions2015.csv - Transaction 17 logged!
+[2022-04-25T10:17:32.547] [DEBUG] DodgyTransactions2015.csv - Transaction 18:
+[2022-04-25T10:17:32.547] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T10:17:32.548] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T10:17:32.548] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T10:17:32.548] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T10:17:32.548] [DEBUG] DodgyTransactions2015.csv - Deducting 9.84 from Sam N's balance
+[2022-04-25T10:17:32.548] [DEBUG] DodgyTransactions2015.csv - Adding 9.84 to Gergana I's balance
+[2022-04-25T10:17:32.549] [DEBUG] DodgyTransactions2015.csv - Transaction 18 logged!
+[2022-04-25T10:17:32.549] [DEBUG] DodgyTransactions2015.csv - Transaction 19:
+[2022-04-25T10:17:32.549] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T10:17:32.549] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T10:17:32.549] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T10:17:32.549] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T10:17:32.550] [DEBUG] DodgyTransactions2015.csv - Deducting 0.68 from Chris W's balance
+[2022-04-25T10:17:32.550] [DEBUG] DodgyTransactions2015.csv - Adding 0.68 to Stephen S's balance
+[2022-04-25T10:17:32.550] [DEBUG] DodgyTransactions2015.csv - Transaction 19 logged!
+[2022-04-25T10:17:32.550] [DEBUG] DodgyTransactions2015.csv - Transaction 20:
+[2022-04-25T10:17:32.550] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T10:17:32.550] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T10:17:32.550] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T10:17:32.550] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T10:17:32.550] [DEBUG] DodgyTransactions2015.csv - Deducting 6.56 from Laura B's balance
+[2022-04-25T10:17:32.551] [DEBUG] DodgyTransactions2015.csv - Adding 6.56 to Gergana I's balance
+[2022-04-25T10:17:32.551] [DEBUG] DodgyTransactions2015.csv - Transaction 20 logged!
+[2022-04-25T10:17:32.551] [DEBUG] DodgyTransactions2015.csv - Transaction 21:
+[2022-04-25T10:17:32.551] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T10:17:32.551] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T10:17:32.551] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T10:17:32.551] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T10:17:32.551] [DEBUG] DodgyTransactions2015.csv - Deducting 1.28 from Chris W's balance
+[2022-04-25T10:17:32.552] [DEBUG] DodgyTransactions2015.csv - Adding 1.28 to Dan W's balance
+[2022-04-25T10:17:32.552] [DEBUG] DodgyTransactions2015.csv - Transaction 21 logged!
+[2022-04-25T10:17:32.552] [DEBUG] DodgyTransactions2015.csv - Transaction 22:
+[2022-04-25T10:17:32.552] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T10:17:32.552] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T10:17:32.553] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T10:17:32.553] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T10:17:32.553] [DEBUG] DodgyTransactions2015.csv - Deducting 11.48 from Sarah T's balance
+[2022-04-25T10:17:32.553] [DEBUG] DodgyTransactions2015.csv - Adding 11.48 to Dan W's balance
+[2022-04-25T10:17:32.553] [DEBUG] DodgyTransactions2015.csv - Transaction 22 logged!
+[2022-04-25T10:17:32.553] [DEBUG] DodgyTransactions2015.csv - Transaction 23:
+[2022-04-25T10:17:32.553] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T10:17:32.554] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T10:17:32.554] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T10:17:32.554] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T10:17:32.554] [DEBUG] DodgyTransactions2015.csv - Deducting 4.83 from Stephen S's balance
+[2022-04-25T10:17:32.554] [DEBUG] DodgyTransactions2015.csv - Adding 4.83 to Rob S's balance
+[2022-04-25T10:17:32.554] [DEBUG] DodgyTransactions2015.csv - Transaction 23 logged!
+[2022-04-25T10:17:32.554] [DEBUG] DodgyTransactions2015.csv - Transaction 24:
+[2022-04-25T10:17:32.555] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T10:17:32.555] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T10:17:32.555] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T10:17:32.555] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T10:17:32.555] [DEBUG] DodgyTransactions2015.csv - Deducting 0.5 from Dan W's balance
+[2022-04-25T10:17:32.555] [DEBUG] DodgyTransactions2015.csv - Adding 0.5 to Ben B's balance
+[2022-04-25T10:17:32.555] [DEBUG] DodgyTransactions2015.csv - Transaction 24 logged!
+[2022-04-25T10:17:32.555] [DEBUG] DodgyTransactions2015.csv - Transaction 25:
+[2022-04-25T10:17:32.556] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T10:17:32.556] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T10:17:32.556] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T10:17:32.556] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T10:17:32.556] [DEBUG] DodgyTransactions2015.csv - Deducting 9.08 from Todd's balance
+[2022-04-25T10:17:32.557] [DEBUG] DodgyTransactions2015.csv - Adding 9.08 to Gergana I's balance
+[2022-04-25T10:17:32.557] [DEBUG] DodgyTransactions2015.csv - Transaction 25 logged!
+[2022-04-25T10:17:32.557] [DEBUG] DodgyTransactions2015.csv - Transaction 26:
+[2022-04-25T10:17:32.557] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T10:17:32.557] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T10:17:32.557] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T10:17:32.558] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T10:17:32.558] [DEBUG] DodgyTransactions2015.csv - Deducting 4.23 from Stephen S's balance
+[2022-04-25T10:17:32.558] [DEBUG] DodgyTransactions2015.csv - Adding 4.23 to Jon A's balance
+[2022-04-25T10:17:32.558] [DEBUG] DodgyTransactions2015.csv - Transaction 26 logged!
+[2022-04-25T10:17:32.558] [DEBUG] DodgyTransactions2015.csv - Transaction 27:
+[2022-04-25T10:17:32.558] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T10:17:32.558] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T10:17:32.558] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T10:17:32.558] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T10:17:32.559] [ERROR] DodgyTransactions2015.csv - One Cheeseburger is not a cash balance
+[2022-04-25T10:17:32.560] [DEBUG] DodgyTransactions2015.csv - Transaction 27 logged!
+[2022-04-25T10:17:32.560] [DEBUG] DodgyTransactions2015.csv - Transaction 28:
+[2022-04-25T10:17:32.560] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T10:17:32.560] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T10:17:32.560] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T10:17:32.561] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T10:17:32.561] [DEBUG] DodgyTransactions2015.csv - Deducting 1.92 from Todd's balance
+[2022-04-25T10:17:32.561] [DEBUG] DodgyTransactions2015.csv - Adding 1.92 to Chris W's balance
+[2022-04-25T10:17:32.561] [DEBUG] DodgyTransactions2015.csv - Transaction 28 logged!
+[2022-04-25T10:17:32.561] [DEBUG] DodgyTransactions2015.csv - Transaction 29:
+[2022-04-25T10:17:32.561] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T10:17:32.562] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T10:17:32.562] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T10:17:32.562] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T10:17:32.562] [DEBUG] DodgyTransactions2015.csv - Deducting 9.09 from Laura B's balance
+[2022-04-25T10:17:32.562] [DEBUG] DodgyTransactions2015.csv - Adding 9.09 to Jon A's balance
+[2022-04-25T10:17:32.562] [DEBUG] DodgyTransactions2015.csv - Transaction 29 logged!
+[2022-04-25T10:17:32.562] [DEBUG] DodgyTransactions2015.csv - Transaction 30:
+[2022-04-25T10:17:32.563] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T10:17:32.563] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T10:17:32.563] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T10:17:32.563] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T10:17:32.563] [DEBUG] DodgyTransactions2015.csv - Deducting 9.4 from Stephen S's balance
+[2022-04-25T10:17:32.563] [DEBUG] DodgyTransactions2015.csv - Adding 9.4 to Gergana I's balance
+[2022-04-25T10:17:32.564] [DEBUG] DodgyTransactions2015.csv - Transaction 30 logged!
+[2022-04-25T10:17:32.564] [DEBUG] DodgyTransactions2015.csv - Transaction 31:
+[2022-04-25T10:17:32.564] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T10:17:32.564] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T10:17:32.564] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T10:17:32.564] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T10:17:32.565] [DEBUG] DodgyTransactions2015.csv - Deducting 11.32 from Ben B's balance
+[2022-04-25T10:17:32.565] [DEBUG] DodgyTransactions2015.csv - Adding 11.32 to Sam N's balance
+[2022-04-25T10:17:32.565] [DEBUG] DodgyTransactions2015.csv - Transaction 31 logged!
+[2022-04-25T10:17:32.565] [DEBUG] DodgyTransactions2015.csv - Transaction 32:
+[2022-04-25T10:17:32.565] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T10:17:32.565] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T10:17:32.566] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T10:17:32.566] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T10:17:32.566] [DEBUG] DodgyTransactions2015.csv - Deducting 11.57 from Stephen S's balance
+[2022-04-25T10:17:32.566] [DEBUG] DodgyTransactions2015.csv - Adding 11.57 to Jon A's balance
+[2022-04-25T10:17:32.566] [DEBUG] DodgyTransactions2015.csv - Transaction 32 logged!
+[2022-04-25T10:17:32.566] [DEBUG] DodgyTransactions2015.csv - Transaction 33:
+[2022-04-25T10:17:32.566] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T10:17:32.567] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T10:17:32.567] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T10:17:32.567] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T10:17:32.567] [DEBUG] DodgyTransactions2015.csv - Deducting 2.29 from Todd's balance
+[2022-04-25T10:17:32.567] [DEBUG] DodgyTransactions2015.csv - Adding 2.29 to Sam N's balance
+[2022-04-25T10:17:32.567] [DEBUG] DodgyTransactions2015.csv - Transaction 33 logged!
+[2022-04-25T10:17:32.567] [DEBUG] DodgyTransactions2015.csv - Transaction 34:
+[2022-04-25T10:17:32.568] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T10:17:32.568] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T10:17:32.568] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T10:17:32.568] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T10:17:32.568] [DEBUG] DodgyTransactions2015.csv - Deducting 9.96 from Laura B's balance
+[2022-04-25T10:17:32.568] [DEBUG] DodgyTransactions2015.csv - Adding 9.96 to Chris W's balance
+[2022-04-25T10:17:32.568] [DEBUG] DodgyTransactions2015.csv - Transaction 34 logged!
+[2022-04-25T10:17:32.568] [DEBUG] DodgyTransactions2015.csv - Transaction 35:
+[2022-04-25T10:17:32.569] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T10:17:32.569] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T10:17:32.569] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T10:17:32.569] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T10:17:32.569] [DEBUG] DodgyTransactions2015.csv - Deducting 7.54 from Jon A's balance
+[2022-04-25T10:17:32.570] [DEBUG] DodgyTransactions2015.csv - Adding 7.54 to Gergana I's balance
+[2022-04-25T10:17:32.570] [DEBUG] DodgyTransactions2015.csv - Transaction 35 logged!
+[2022-04-25T10:17:32.570] [DEBUG] DodgyTransactions2015.csv - Transaction 36:
+[2022-04-25T10:17:32.570] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T10:17:32.570] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T10:17:32.570] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T10:17:32.571] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T10:17:32.571] [DEBUG] DodgyTransactions2015.csv - Deducting 2.39 from Gergana I's balance
+[2022-04-25T10:17:32.571] [DEBUG] DodgyTransactions2015.csv - Adding 2.39 to Ben B's balance
+[2022-04-25T10:17:32.571] [DEBUG] DodgyTransactions2015.csv - Transaction 36 logged!
+[2022-04-25T10:17:32.571] [DEBUG] DodgyTransactions2015.csv - Transaction 37:
+[2022-04-25T10:17:32.571] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T10:17:32.571] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T10:17:32.571] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T10:17:32.572] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T10:17:32.572] [DEBUG] DodgyTransactions2015.csv - Deducting 5.83 from Stephen S's balance
+[2022-04-25T10:17:32.572] [DEBUG] DodgyTransactions2015.csv - Adding 5.83 to Tim L's balance
+[2022-04-25T10:17:32.572] [DEBUG] DodgyTransactions2015.csv - Transaction 37 logged!
+[2022-04-25T10:17:32.572] [DEBUG] DodgyTransactions2015.csv - Transaction 38:
+[2022-04-25T10:17:32.572] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T10:17:32.573] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T10:17:32.573] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T10:17:32.573] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T10:17:32.573] [DEBUG] DodgyTransactions2015.csv - Deducting 10.85 from Gergana I's balance
+[2022-04-25T10:17:32.573] [DEBUG] DodgyTransactions2015.csv - Adding 10.85 to Ben B's balance
+[2022-04-25T10:17:32.573] [DEBUG] DodgyTransactions2015.csv - Transaction 38 logged!
+[2022-04-25T10:17:32.573] [DEBUG] DodgyTransactions2015.csv - Transaction 39:
+[2022-04-25T10:17:32.574] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T10:17:32.574] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T10:17:32.574] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T10:17:32.574] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T10:17:32.574] [DEBUG] DodgyTransactions2015.csv - Deducting 8.6 from Tim L's balance
+[2022-04-25T10:17:32.574] [DEBUG] DodgyTransactions2015.csv - Adding 8.6 to Todd's balance
+[2022-04-25T10:17:32.574] [DEBUG] DodgyTransactions2015.csv - Transaction 39 logged!
+[2022-04-25T10:17:32.574] [DEBUG] DodgyTransactions2015.csv - Transaction 40:
+[2022-04-25T10:17:32.574] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T10:17:32.575] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T10:17:32.575] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T10:17:32.575] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T10:17:32.575] [DEBUG] DodgyTransactions2015.csv - Deducting 1.11 from Stephen S's balance
+[2022-04-25T10:17:32.575] [DEBUG] DodgyTransactions2015.csv - Adding 1.11 to Chris W's balance
+[2022-04-25T10:17:32.575] [DEBUG] DodgyTransactions2015.csv - Transaction 40 logged!
+[2022-04-25T10:17:32.575] [DEBUG] DodgyTransactions2015.csv - Transaction 41:
+[2022-04-25T10:17:32.575] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T10:17:32.576] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T10:17:32.576] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T10:17:32.576] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T10:17:32.576] [DEBUG] DodgyTransactions2015.csv - Deducting 0.96 from Chris W's balance
+[2022-04-25T10:17:32.576] [DEBUG] DodgyTransactions2015.csv - Adding 0.96 to Ben B's balance
+[2022-04-25T10:17:32.576] [DEBUG] DodgyTransactions2015.csv - Transaction 41 logged!
+[2022-04-25T10:17:32.576] [DEBUG] DodgyTransactions2015.csv - Transaction 42:
+[2022-04-25T10:17:32.576] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T10:17:32.576] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T10:17:32.577] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T10:17:32.577] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T10:17:32.577] [DEBUG] DodgyTransactions2015.csv - Deducting 11.79 from Chris W's balance
+[2022-04-25T10:17:32.577] [DEBUG] DodgyTransactions2015.csv - Adding 11.79 to Rob S's balance
+[2022-04-25T10:17:32.577] [DEBUG] DodgyTransactions2015.csv - Transaction 42 logged!
+[2022-04-25T10:17:32.577] [DEBUG] DodgyTransactions2015.csv - Transaction 43:
+[2022-04-25T10:17:32.577] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T10:17:32.577] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T10:17:32.578] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T10:17:32.578] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T10:17:32.578] [DEBUG] DodgyTransactions2015.csv - Deducting 8.37 from Gergana I's balance
+[2022-04-25T10:17:32.578] [DEBUG] DodgyTransactions2015.csv - Adding 8.37 to Laura B's balance
+[2022-04-25T10:17:32.578] [DEBUG] DodgyTransactions2015.csv - Transaction 43 logged!
+[2022-04-25T10:17:32.578] [DEBUG] DodgyTransactions2015.csv - Transaction 44:
+[2022-04-25T10:17:32.578] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T10:17:32.579] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T10:17:32.579] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T10:17:32.579] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T10:17:32.579] [DEBUG] DodgyTransactions2015.csv - Deducting 1.27 from Laura B's balance
+[2022-04-25T10:17:32.579] [DEBUG] DodgyTransactions2015.csv - Adding 1.27 to Tim L's balance
+[2022-04-25T10:17:32.579] [DEBUG] DodgyTransactions2015.csv - Transaction 44 logged!
+[2022-04-25T10:17:32.580] [DEBUG] DodgyTransactions2015.csv - Transaction 45:
+[2022-04-25T10:17:32.580] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T10:17:32.580] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T10:17:32.580] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T10:17:32.580] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T10:17:32.580] [DEBUG] DodgyTransactions2015.csv - Deducting 8.5 from Ben B's balance
+[2022-04-25T10:17:32.580] [DEBUG] DodgyTransactions2015.csv - Adding 8.5 to Sam N's balance
+[2022-04-25T10:17:32.581] [DEBUG] DodgyTransactions2015.csv - Transaction 45 logged!
+[2022-04-25T10:17:32.581] [DEBUG] DodgyTransactions2015.csv - Transaction 46:
+[2022-04-25T10:17:32.581] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T10:17:32.581] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T10:17:32.581] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T10:17:32.581] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T10:17:32.581] [DEBUG] DodgyTransactions2015.csv - Deducting 8.91 from Stephen S's balance
+[2022-04-25T10:17:32.581] [DEBUG] DodgyTransactions2015.csv - Adding 8.91 to Chris W's balance
+[2022-04-25T10:17:32.581] [DEBUG] DodgyTransactions2015.csv - Transaction 46 logged!
+[2022-04-25T10:17:32.582] [DEBUG] DodgyTransactions2015.csv - Transaction 47:
+[2022-04-25T10:17:32.582] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T10:17:32.582] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T10:17:32.582] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T10:17:32.582] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T10:17:32.582] [DEBUG] DodgyTransactions2015.csv - Deducting 8.1 from Tim L's balance
+[2022-04-25T10:17:32.582] [DEBUG] DodgyTransactions2015.csv - Adding 8.1 to Todd's balance
+[2022-04-25T10:17:32.583] [DEBUG] DodgyTransactions2015.csv - Transaction 47 logged!
+[2022-04-25T10:17:32.583] [DEBUG] DodgyTransactions2015.csv - Transaction 48:
+[2022-04-25T10:17:32.584] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T10:17:32.584] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T10:17:32.584] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T10:17:32.584] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T10:17:32.584] [DEBUG] DodgyTransactions2015.csv - Deducting 6.38 from Tim L's balance
+[2022-04-25T10:17:32.585] [DEBUG] DodgyTransactions2015.csv - Adding 6.38 to Sarah T's balance
+[2022-04-25T10:17:32.585] [DEBUG] DodgyTransactions2015.csv - Transaction 48 logged!
+[2022-04-25T10:17:32.585] [DEBUG] DodgyTransactions2015.csv - Transaction 49:
+[2022-04-25T10:17:32.585] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T10:17:32.586] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T10:17:32.586] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T10:17:32.586] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T10:17:32.586] [DEBUG] DodgyTransactions2015.csv - Deducting 8.44 from Jon A's balance
+[2022-04-25T10:17:32.586] [DEBUG] DodgyTransactions2015.csv - Adding 8.44 to Todd's balance
+[2022-04-25T10:17:32.586] [DEBUG] DodgyTransactions2015.csv - Transaction 49 logged!
+[2022-04-25T10:17:32.587] [DEBUG] DodgyTransactions2015.csv - Transaction 50:
+[2022-04-25T10:17:32.587] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T10:17:32.587] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T10:17:32.587] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T10:17:32.587] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T10:17:32.588] [DEBUG] DodgyTransactions2015.csv - Deducting 10.91 from Ben B's balance
+[2022-04-25T10:17:32.588] [DEBUG] DodgyTransactions2015.csv - Adding 10.91 to Jon A's balance
+[2022-04-25T10:17:32.588] [DEBUG] DodgyTransactions2015.csv - Transaction 50 logged!
+[2022-04-25T10:17:32.588] [DEBUG] DodgyTransactions2015.csv - Transaction 51:
+[2022-04-25T10:17:32.588] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T10:17:32.588] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T10:17:32.588] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T10:17:32.589] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T10:17:32.589] [ERROR] DodgyTransactions2015.csv - Last Thursday is not the correct format
+[2022-04-25T10:17:32.589] [DEBUG] DodgyTransactions2015.csv - Transaction 51 logged!

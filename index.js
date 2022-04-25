@@ -14,7 +14,7 @@ log4js.configure({
     }
 });
 
-logger.trace("Starting program")
+logger.trace("Starting program...")
 
 class Person {
     constructor(name, balance) {
@@ -34,27 +34,14 @@ class Person {
             const [date, nameFrom, nameTo, narrative, amount] = this.transactions[i]
             console.log(`Transaction from ${nameFrom} to ${nameTo} on ${date} for £${amount} for ${narrative}`)
         }
-
-        // console.log(this.transactions)
     }
 
     showVoidTransactions() {
         console.log("NOTE - This person has the following invalid transactions:")
         for (let i = 0; i < this.voidTransactions.length; i++) {
             const [date, nameFrom, nameTo, narrative, amount, amountString, reason] = this.voidTransactions[i]
-            console.log(`Transaction from ${nameFrom} to ${nameTo} on ${date} for ${amountString} for ${narrative} is invalid because ${reason}`)
+            console.log(`Transaction from ${nameFrom} to ${nameTo} on ${date} for ${amountString} for ${narrative} is invalid: ${reason}`)
         }
-        // console.log(this.voidTransactions)
-    }
-}
-
-class Transaction {
-    constructor(date, from, to, narrative, amount) {
-        this.date = date
-        this.from = from
-        this.to = to
-        this.narrative = narrative
-        this.amount = amount
     }
 }
 
@@ -62,8 +49,7 @@ const handleParseResults = (results) => {
     logger.debug("Parse complete")
     const records = results.data
     let people = []
-    let transactions = []
-    let voidTransactions = []
+
     const checkPeople = (name) => {
         logger.debug(`Searching people array for ${name}`)
         for (let i = 0; i < people.length; i++) {
@@ -78,7 +64,6 @@ const handleParseResults = (results) => {
     const addPeople = (name) => {
         let person = new Person(name, 0.00)
         people.push(person)
-        // console.log(person)
     }
     const findPerson = (name) => {
         for (let i = 0; i < people.length; i++) {
@@ -118,31 +103,26 @@ const handleParseResults = (results) => {
             logger.error(`${amountString} is not a cash balance`)
             const reason = `The amount for transaction ${i} is not a cash balance`
             console.log(reason)
-            voidTransactions.push([date, nameFrom, nameTo, narrative, amountString, reason])
 
-            personFrom.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason]) //This doesn't work
-            personTo.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason]) // This doesn't work
+            personFrom.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason])
+            personTo.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason])
         } else if (checkDate(date) == null) {
             logger.error(`${date} is not the correct format`)
             const reason = `The date on transaction ${i} is not the correct format`
             console.log(reason)
-            voidTransactions.push([date, nameFrom, nameTo, narrative, amount, reason])
 
-            personFrom.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason]) //This doesn't work
-            personTo.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason]) // This doesn't work
+            personFrom.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason])
+            personTo.voidTransactions.push([date, nameFrom, nameTo, narrative, amount, amountString, reason])
         } else {
             logger.debug(`Deducting ${amount} from ${nameFrom}'s balance`)
             personFrom.balance -= amount
             logger.debug(`Adding ${amount} to ${nameTo}'s balance`)
             personTo.balance += amount
 
-            personFrom.transactions.push([date, nameFrom, nameTo, narrative, amount]) //This doesn't work
-            personTo.transactions.push([date, nameFrom, nameTo, narrative, amount]) // This doesn't work
+            personFrom.transactions.push([date, nameFrom, nameTo, narrative, amount])
+            personTo.transactions.push([date, nameFrom, nameTo, narrative, amount])
         }
 
-        //Create a transaction for each
-        let transaction = new Transaction(date, nameTo, nameFrom, narrative, amount)
-        transactions.push(transaction)
         logger.debug(`Transaction ${i} logged!`)
     }
 
@@ -156,17 +136,8 @@ const handleParseResults = (results) => {
     //List transactions associated with person
     const getTransactions = (name) => {
         const person = people[findPerson(name)]
-        person.showTransactions()
-        // console.log(person.transactions)
         if (person.voidTransactions.length) { person.showVoidTransactions() }
-        // for (let i = 0; i < transactions.length; i++) {
-        //     if (transactions[i].to === person) {
-        //         console.log(`Transaction from ${transactions[i].from} on ${transactions[i].date} for £${transactions[i].amount} for ${transactions[i].narrative}`)
-        //     }
-        //     else if (transactions[i].from == person) {
-        //         console.log(`Transaction to ${transactions[i].to} on ${transactions[i].date} for £${transactions[i].amount} for ${transactions[i].narrative}`)
-        //     }
-        // }
+        person.showTransactions()
     }
 
     let response = ""
