@@ -5,10 +5,26 @@ const file = fs.createReadStream('DodgyTransactions2015.csv');
 const log4js = require("log4js");
 const logger = log4js.getLogger('DodgyTransactions2015.csv');
 const transactions2013 = require("./Transactions2013.json")
+const moment = require("moment");
+// moment().format();
 
-console.log(transactions2013[0])
-let parsedTransactions = JSON.parse(JSON.stringify(transactions2013[0]))
-console.log(parsedTransactions)
+// console.log(transactions2013.length)
+let transactionsArr = []
+for (let i = 0; i < transactions2013.length; i++) {
+    const transaction = JSON.stringify(transactions2013[i])
+    const transactionArr = JSON.parse(transaction, (key, value) => {
+        if (key == "Date") {
+            return moment(value, "YYYY-MM-DD").format("DD/MM/YYYY")
+        } else {
+            return value
+        }
+    })
+    transactionsArr.push(transactionArr)
+}
+// console.log(transactionsArr)
+
+// let parsedTransactions = JSON.parse(JSON.stringify(transactions2013[0]))
+// console.log(parsedTransactions)
 
 log4js.configure({
     appenders: {
@@ -50,9 +66,9 @@ class Person {
     }
 }
 
-const handleParseResults = (results) => {
+const handleParseResults = (results, fileType) => {
     logger.debug("Parse complete")
-    const records = results.data
+    const records = fileType === "json" ? results : results.data
     let people = []
 
     const checkPeople = (name) => {
@@ -86,8 +102,19 @@ const handleParseResults = (results) => {
     //Iterate through each transaction
     logger.debug("Iterating through transactions...")
     for (let i = 1; i < records.length; i++) { // Starting at i = 1 to skip header
-        const [date, nameFrom, nameTo, narrative, amountString] = records[i]
-        const amount = parseFloat(amountString)
+        let [date, nameFrom, nameTo, narrative, amountString] = ["", "", "", "", ""]
+        let amount = 0.00
+        if (fileType === "json") {
+            date = records[i].Date
+            nameFrom = records[i].FromAccount
+            nameTo = records[i].ToAccount
+            narrative = records[i].Narrative
+            amount = records[i].Amount
+        } else {
+            [date, nameFrom, nameTo, narrative, amountString] = records[i]
+            amount = parseFloat(amountString)
+        }
+
 
         //Check if people are already in array and add them if not
         if (!checkPeople(nameFrom)) {
@@ -164,8 +191,13 @@ const handleParseResults = (results) => {
     }
 }
 
+let userFile = readlineSync.question('Please enter a file to process, or type "exit" to quit.')
+if (userFile.subStr(-3) == "json") {
+
+}
 logger.debug(`Parsing file${file.path}`)
-papa.parse(file, { complete: handleParseResults });
+handleParseResults(transactionsArr, "json")
+// papa.parse(file, { complete: handleParseResults });
 
 
 
