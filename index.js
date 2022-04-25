@@ -3,6 +3,7 @@ const papa = require('papaparse');
 const readlineSync = require("readline-sync");
 const log4js = require("log4js");
 const moment = require("moment");
+const xml2js = require('xml2js');
 
 const userFile = readlineSync.question('Please enter a file to process with "Import File [filename], or type "exit" to quit.')
 const logger = log4js.getLogger(`${userFile}`);
@@ -95,7 +96,6 @@ const handleParseResults = (results, fileType) => {
             amount = parseFloat(amountString)
         }
 
-
         //Check if people are already in array and add them if not
         if (!checkPeople(nameFrom)) {
             addPeople(nameFrom)
@@ -171,6 +171,20 @@ const handleParseResults = (results, fileType) => {
     }
 }
 
+const handleXML = (transactions) => {
+    const parsedTransactions = []
+    transactions.forEach((transaction) => {
+        // console.log(transaction)
+        const date = moment(transaction.$.Date).format("DD/MM/YYYY")
+        const from = transaction.Parties[0].From[0]
+        const to = transaction.Parties[0].To[0]
+        const narrative = transaction.Description[0]
+        const amount = transaction.Value[0]
+        parsedTransactions.push([date, from, to, narrative, amount])
+    })
+    console.log(parsedTransactions)
+}
+
 if (userFile.slice(-4) === "json") {
     const transactions = require(`./${userFile}`)
     const transactionsArr = []
@@ -193,6 +207,15 @@ if (userFile.slice(-4) === "json") {
     const file = fs.createReadStream(`${userFile}`);
     logger.debug(`Parsing file${file.path}`)
     papa.parse(file, { complete: handleParseResults });
+} else if (userFile.slice(-3) === "xml") {
+    const parser = new xml2js.Parser();
+
+    fs.readFile(`${userFile}`, (err, data) => {
+        parser.parseString(data, (err, result) => {
+            const transactions = result.TransactionList.SupportTransaction;
+            handleXML(transactions);
+        });
+    });
 }
 
 
