@@ -13625,3 +13625,1749 @@
 [2022-04-25T12:23:34.193] [DEBUG] DodgyTransactions2015.csv - Transactions listed
 [2022-04-25T12:23:34.193] [DEBUG] DodgyTransactions2015.csv - Requesting command from the user
 [2022-04-25T12:23:53.828] [DEBUG] DodgyTransactions2015.csv - Programme exited
+[2022-04-25T12:45:30.361] [DEBUG] DodgyTransactions2015.csv - Parse complete
+[2022-04-25T12:45:30.362] [DEBUG] DodgyTransactions2015.csv - Iterating through transactions...
+[2022-04-25T12:45:30.362] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.363] [DEBUG] DodgyTransactions2015.csv - Chris W not in array
+[2022-04-25T12:45:30.363] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.363] [DEBUG] DodgyTransactions2015.csv - Dan W not in array
+[2022-04-25T12:45:30.363] [DEBUG] DodgyTransactions2015.csv - Transaction 1 validated!
+[2022-04-25T12:45:30.363] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.363] [DEBUG] DodgyTransactions2015.csv - Stephen S not in array
+[2022-04-25T12:45:30.364] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.364] [DEBUG] DodgyTransactions2015.csv - Tim L not in array
+[2022-04-25T12:45:30.364] [DEBUG] DodgyTransactions2015.csv - Transaction 2 validated!
+[2022-04-25T12:45:30.364] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.364] [DEBUG] DodgyTransactions2015.csv - Todd not in array
+[2022-04-25T12:45:30.364] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.364] [DEBUG] DodgyTransactions2015.csv - Rob S not in array
+[2022-04-25T12:45:30.365] [DEBUG] DodgyTransactions2015.csv - Transaction 3 validated!
+[2022-04-25T12:45:30.365] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.365] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.365] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.365] [DEBUG] DodgyTransactions2015.csv - Sarah T not in array
+[2022-04-25T12:45:30.365] [DEBUG] DodgyTransactions2015.csv - Transaction 4 validated!
+[2022-04-25T12:45:30.365] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.365] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.366] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.366] [DEBUG] DodgyTransactions2015.csv - Laura B not in array
+[2022-04-25T12:45:30.366] [DEBUG] DodgyTransactions2015.csv - Transaction 5 validated!
+[2022-04-25T12:45:30.366] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.366] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.366] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.366] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.366] [DEBUG] DodgyTransactions2015.csv - Transaction 6 validated!
+[2022-04-25T12:45:30.367] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.367] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.367] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.367] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.367] [DEBUG] DodgyTransactions2015.csv - Transaction 7 validated!
+[2022-04-25T12:45:30.367] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.367] [DEBUG] DodgyTransactions2015.csv - Ben B not in array
+[2022-04-25T12:45:30.367] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.368] [DEBUG] DodgyTransactions2015.csv - Jon A not in array
+[2022-04-25T12:45:30.368] [DEBUG] DodgyTransactions2015.csv - Transaction 8 validated!
+[2022-04-25T12:45:30.368] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.368] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.368] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.368] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.368] [DEBUG] DodgyTransactions2015.csv - Transaction 9 validated!
+[2022-04-25T12:45:30.368] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.369] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.369] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.369] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.369] [DEBUG] DodgyTransactions2015.csv - Transaction 10 validated!
+[2022-04-25T12:45:30.370] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.370] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.370] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.370] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.370] [DEBUG] DodgyTransactions2015.csv - Transaction 11 validated!
+[2022-04-25T12:45:30.370] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.370] [DEBUG] DodgyTransactions2015.csv - Sam N not in array
+[2022-04-25T12:45:30.371] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.371] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.371] [DEBUG] DodgyTransactions2015.csv - Transaction 12 validated!
+[2022-04-25T12:45:30.371] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.371] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.371] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.371] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.371] [DEBUG] DodgyTransactions2015.csv - Transaction 13 validated!
+[2022-04-25T12:45:30.372] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.372] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.372] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.372] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.372] [DEBUG] DodgyTransactions2015.csv - Transaction 14 validated!
+[2022-04-25T12:45:30.372] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.372] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.372] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.373] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.373] [DEBUG] DodgyTransactions2015.csv - Transaction 15 validated!
+[2022-04-25T12:45:30.373] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.373] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.373] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.373] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.373] [DEBUG] DodgyTransactions2015.csv - Transaction 16 validated!
+[2022-04-25T12:45:30.374] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.374] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.374] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.374] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.374] [DEBUG] DodgyTransactions2015.csv - Transaction 17 validated!
+[2022-04-25T12:45:30.374] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.375] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.375] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.375] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.375] [DEBUG] DodgyTransactions2015.csv - Transaction 18 validated!
+[2022-04-25T12:45:30.375] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.375] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.375] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.375] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.375] [DEBUG] DodgyTransactions2015.csv - Transaction 19 validated!
+[2022-04-25T12:45:30.376] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.376] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.376] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.376] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.376] [DEBUG] DodgyTransactions2015.csv - Transaction 20 validated!
+[2022-04-25T12:45:30.376] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.376] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.377] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.377] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.377] [DEBUG] DodgyTransactions2015.csv - Transaction 21 validated!
+[2022-04-25T12:45:30.377] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.377] [DEBUG] DodgyTransactions2015.csv - Gergana I not in array
+[2022-04-25T12:45:30.377] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.377] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.377] [DEBUG] DodgyTransactions2015.csv - Transaction 22 validated!
+[2022-04-25T12:45:30.377] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.378] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.378] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.378] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.378] [DEBUG] DodgyTransactions2015.csv - Transaction 23 validated!
+[2022-04-25T12:45:30.378] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.378] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.378] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.378] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.379] [DEBUG] DodgyTransactions2015.csv - Transaction 24 validated!
+[2022-04-25T12:45:30.379] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.379] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.379] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.379] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.379] [DEBUG] DodgyTransactions2015.csv - Transaction 25 validated!
+[2022-04-25T12:45:30.379] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.379] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.379] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.380] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.380] [DEBUG] DodgyTransactions2015.csv - Transaction 26 validated!
+[2022-04-25T12:45:30.380] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.380] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.380] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.380] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.380] [DEBUG] DodgyTransactions2015.csv - Transaction 27 validated!
+[2022-04-25T12:45:30.381] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.381] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.381] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.381] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.381] [DEBUG] DodgyTransactions2015.csv - Transaction 28 validated!
+[2022-04-25T12:45:30.381] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.381] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.381] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.382] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.382] [DEBUG] DodgyTransactions2015.csv - Transaction 29 validated!
+[2022-04-25T12:45:30.382] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.382] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.382] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.382] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.382] [DEBUG] DodgyTransactions2015.csv - Transaction 30 validated!
+[2022-04-25T12:45:30.383] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.383] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.383] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.383] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.383] [DEBUG] DodgyTransactions2015.csv - Transaction 31 validated!
+[2022-04-25T12:45:30.383] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.383] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.383] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.384] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.384] [DEBUG] DodgyTransactions2015.csv - Transaction 32 validated!
+[2022-04-25T12:45:30.384] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.384] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.384] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.384] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.384] [DEBUG] DodgyTransactions2015.csv - Transaction 33 validated!
+[2022-04-25T12:45:30.384] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.385] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.385] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.385] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.385] [DEBUG] DodgyTransactions2015.csv - Transaction 34 validated!
+[2022-04-25T12:45:30.385] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.385] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.385] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.385] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.385] [DEBUG] DodgyTransactions2015.csv - Transaction 35 validated!
+[2022-04-25T12:45:30.386] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.386] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.386] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.386] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.386] [DEBUG] DodgyTransactions2015.csv - Transaction 36 validated!
+[2022-04-25T12:45:30.386] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.387] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.387] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.387] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.387] [DEBUG] DodgyTransactions2015.csv - Transaction 37 validated!
+[2022-04-25T12:45:30.387] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.387] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.387] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.387] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.387] [DEBUG] DodgyTransactions2015.csv - Transaction 38 validated!
+[2022-04-25T12:45:30.388] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.388] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.388] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.388] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.388] [DEBUG] DodgyTransactions2015.csv - Transaction 39 validated!
+[2022-04-25T12:45:30.388] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.388] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.388] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.389] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.389] [DEBUG] DodgyTransactions2015.csv - Transaction 40 validated!
+[2022-04-25T12:45:30.389] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.389] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.389] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.389] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.389] [DEBUG] DodgyTransactions2015.csv - Transaction 41 validated!
+[2022-04-25T12:45:30.389] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.390] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.390] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.390] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.390] [DEBUG] DodgyTransactions2015.csv - Transaction 42 validated!
+[2022-04-25T12:45:30.390] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.391] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.391] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.391] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.391] [DEBUG] DodgyTransactions2015.csv - Transaction 43 validated!
+[2022-04-25T12:45:30.391] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.391] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.391] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.391] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.392] [DEBUG] DodgyTransactions2015.csv - Transaction 44 validated!
+[2022-04-25T12:45:30.392] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.392] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.392] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.392] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.393] [DEBUG] DodgyTransactions2015.csv - Transaction 45 validated!
+[2022-04-25T12:45:30.393] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.393] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.393] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.393] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.393] [DEBUG] DodgyTransactions2015.csv - Transaction 46 validated!
+[2022-04-25T12:45:30.393] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.393] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.394] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.394] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.394] [DEBUG] DodgyTransactions2015.csv - Transaction 47 validated!
+[2022-04-25T12:45:30.394] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.394] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.394] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.394] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.394] [DEBUG] DodgyTransactions2015.csv - Transaction 48 validated!
+[2022-04-25T12:45:30.394] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.395] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.395] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.395] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.395] [DEBUG] DodgyTransactions2015.csv - Transaction 49 validated!
+[2022-04-25T12:45:30.395] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.395] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.395] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.395] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.396] [DEBUG] DodgyTransactions2015.csv - Transaction 50 validated!
+[2022-04-25T12:45:30.396] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.396] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.396] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.396] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.396] [DEBUG] DodgyTransactions2015.csv - Transaction 51 validated!
+[2022-04-25T12:45:30.396] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.397] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.397] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.397] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.397] [DEBUG] DodgyTransactions2015.csv - Transaction 52 validated!
+[2022-04-25T12:45:30.397] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.397] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.397] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.397] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.397] [DEBUG] DodgyTransactions2015.csv - Transaction 53 validated!
+[2022-04-25T12:45:30.398] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.398] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.398] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.398] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.398] [DEBUG] DodgyTransactions2015.csv - Transaction 54 validated!
+[2022-04-25T12:45:30.398] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.398] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.398] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.398] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.399] [DEBUG] DodgyTransactions2015.csv - Transaction 55 validated!
+[2022-04-25T12:45:30.399] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.399] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.399] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.399] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.399] [DEBUG] DodgyTransactions2015.csv - Transaction 56 validated!
+[2022-04-25T12:45:30.399] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.399] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.399] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.400] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.400] [DEBUG] DodgyTransactions2015.csv - Transaction 57 validated!
+[2022-04-25T12:45:30.400] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.400] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.400] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.400] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.400] [DEBUG] DodgyTransactions2015.csv - Transaction 58 validated!
+[2022-04-25T12:45:30.400] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.401] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.401] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.401] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.401] [DEBUG] DodgyTransactions2015.csv - Transaction 59 validated!
+[2022-04-25T12:45:30.401] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.401] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.401] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.401] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.401] [DEBUG] DodgyTransactions2015.csv - Transaction 60 validated!
+[2022-04-25T12:45:30.402] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.402] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.402] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.402] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.402] [DEBUG] DodgyTransactions2015.csv - Transaction 61 validated!
+[2022-04-25T12:45:30.402] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.402] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.403] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.403] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.403] [DEBUG] DodgyTransactions2015.csv - Transaction 62 validated!
+[2022-04-25T12:45:30.403] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.403] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.403] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.403] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.403] [DEBUG] DodgyTransactions2015.csv - Transaction 63 validated!
+[2022-04-25T12:45:30.403] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.404] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.404] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.404] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.404] [DEBUG] DodgyTransactions2015.csv - Transaction 64 validated!
+[2022-04-25T12:45:30.404] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.404] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.404] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.404] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.404] [DEBUG] DodgyTransactions2015.csv - Transaction 65 validated!
+[2022-04-25T12:45:30.405] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.405] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.405] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.405] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.405] [DEBUG] DodgyTransactions2015.csv - Transaction 66 validated!
+[2022-04-25T12:45:30.405] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.405] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.405] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.406] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.406] [DEBUG] DodgyTransactions2015.csv - Transaction 67 validated!
+[2022-04-25T12:45:30.406] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.406] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.406] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.406] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.406] [DEBUG] DodgyTransactions2015.csv - Transaction 68 validated!
+[2022-04-25T12:45:30.406] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.407] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.407] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.407] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.407] [DEBUG] DodgyTransactions2015.csv - Transaction 69 validated!
+[2022-04-25T12:45:30.407] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.407] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.408] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.408] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.408] [DEBUG] DodgyTransactions2015.csv - Transaction 70 validated!
+[2022-04-25T12:45:30.408] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.408] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.408] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.408] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.408] [DEBUG] DodgyTransactions2015.csv - Transaction 71 validated!
+[2022-04-25T12:45:30.408] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.409] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.409] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.409] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.409] [DEBUG] DodgyTransactions2015.csv - Transaction 72 validated!
+[2022-04-25T12:45:30.409] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.409] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.409] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.409] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.410] [DEBUG] DodgyTransactions2015.csv - Transaction 73 validated!
+[2022-04-25T12:45:30.410] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.410] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.410] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.410] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.410] [DEBUG] DodgyTransactions2015.csv - Transaction 74 validated!
+[2022-04-25T12:45:30.410] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.410] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.410] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.411] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.411] [DEBUG] DodgyTransactions2015.csv - Transaction 75 validated!
+[2022-04-25T12:45:30.411] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.411] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.411] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.411] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.411] [DEBUG] DodgyTransactions2015.csv - Transaction 76 validated!
+[2022-04-25T12:45:30.411] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.411] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.412] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.412] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.412] [DEBUG] DodgyTransactions2015.csv - Transaction 77 validated!
+[2022-04-25T12:45:30.412] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.412] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.413] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.413] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.414] [DEBUG] DodgyTransactions2015.csv - Transaction 78 validated!
+[2022-04-25T12:45:30.414] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.414] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.414] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.415] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.415] [DEBUG] DodgyTransactions2015.csv - Transaction 79 validated!
+[2022-04-25T12:45:30.415] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.415] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.415] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.416] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.416] [DEBUG] DodgyTransactions2015.csv - Transaction 80 validated!
+[2022-04-25T12:45:30.416] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.416] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.416] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.416] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.417] [DEBUG] DodgyTransactions2015.csv - Transaction 81 validated!
+[2022-04-25T12:45:30.417] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.417] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.417] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.417] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.418] [DEBUG] DodgyTransactions2015.csv - Transaction 82 validated!
+[2022-04-25T12:45:30.418] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.418] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.418] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.418] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.418] [DEBUG] DodgyTransactions2015.csv - Transaction 83 validated!
+[2022-04-25T12:45:30.418] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.418] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.419] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.419] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.419] [DEBUG] DodgyTransactions2015.csv - Transaction 84 validated!
+[2022-04-25T12:45:30.419] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.419] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.419] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.419] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.419] [DEBUG] DodgyTransactions2015.csv - Transaction 85 validated!
+[2022-04-25T12:45:30.420] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.420] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.420] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.420] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.420] [DEBUG] DodgyTransactions2015.csv - Transaction 86 validated!
+[2022-04-25T12:45:30.420] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.420] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.420] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.420] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.421] [DEBUG] DodgyTransactions2015.csv - Transaction 87 validated!
+[2022-04-25T12:45:30.421] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.421] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.421] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.421] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.421] [DEBUG] DodgyTransactions2015.csv - Transaction 88 validated!
+[2022-04-25T12:45:30.421] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.421] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.421] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.421] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.422] [DEBUG] DodgyTransactions2015.csv - Transaction 89 validated!
+[2022-04-25T12:45:30.422] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.422] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.422] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.422] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.422] [DEBUG] DodgyTransactions2015.csv - Transaction 90 validated!
+[2022-04-25T12:45:30.422] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.422] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.423] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.423] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.423] [DEBUG] DodgyTransactions2015.csv - Transaction 91 validated!
+[2022-04-25T12:45:30.423] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.423] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.423] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.423] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.424] [DEBUG] DodgyTransactions2015.csv - Transaction 92 validated!
+[2022-04-25T12:45:30.424] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.424] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.424] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.424] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.424] [DEBUG] DodgyTransactions2015.csv - Transaction 93 validated!
+[2022-04-25T12:45:30.424] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.424] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.425] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.425] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.425] [DEBUG] DodgyTransactions2015.csv - Transaction 94 validated!
+[2022-04-25T12:45:30.425] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.425] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.425] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.425] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.425] [DEBUG] DodgyTransactions2015.csv - Transaction 95 validated!
+[2022-04-25T12:45:30.426] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.426] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.426] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.426] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.426] [DEBUG] DodgyTransactions2015.csv - Transaction 96 validated!
+[2022-04-25T12:45:30.426] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.426] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.426] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.427] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.427] [DEBUG] DodgyTransactions2015.csv - Transaction 97 validated!
+[2022-04-25T12:45:30.427] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.427] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.427] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.427] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.427] [DEBUG] DodgyTransactions2015.csv - Transaction 98 validated!
+[2022-04-25T12:45:30.427] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.427] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.428] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.428] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.428] [DEBUG] DodgyTransactions2015.csv - Transaction 99 validated!
+[2022-04-25T12:45:30.428] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.428] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.428] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.428] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.428] [DEBUG] DodgyTransactions2015.csv - Transaction 100 validated!
+[2022-04-25T12:45:30.428] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.429] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.429] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.429] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.429] [DEBUG] DodgyTransactions2015.csv - Transaction 101 validated!
+[2022-04-25T12:45:30.429] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.429] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.429] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.429] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.429] [DEBUG] DodgyTransactions2015.csv - Transaction 102 validated!
+[2022-04-25T12:45:30.430] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.430] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.430] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.430] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.430] [DEBUG] DodgyTransactions2015.csv - Transaction 103 validated!
+[2022-04-25T12:45:30.430] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.430] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.430] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.430] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.431] [DEBUG] DodgyTransactions2015.csv - Transaction 104 validated!
+[2022-04-25T12:45:30.431] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.431] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.431] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.431] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.431] [DEBUG] DodgyTransactions2015.csv - Transaction 105 validated!
+[2022-04-25T12:45:30.432] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.432] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.433] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.433] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.433] [DEBUG] DodgyTransactions2015.csv - Transaction 106 validated!
+[2022-04-25T12:45:30.433] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.433] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.433] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.433] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.434] [DEBUG] DodgyTransactions2015.csv - Transaction 107 validated!
+[2022-04-25T12:45:30.434] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.434] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.434] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.434] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.434] [DEBUG] DodgyTransactions2015.csv - Transaction 108 validated!
+[2022-04-25T12:45:30.435] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.435] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.435] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.435] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.435] [DEBUG] DodgyTransactions2015.csv - Transaction 109 validated!
+[2022-04-25T12:45:30.435] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.435] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.435] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.436] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.436] [DEBUG] DodgyTransactions2015.csv - Transaction 110 validated!
+[2022-04-25T12:45:30.436] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.436] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.436] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.436] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.436] [DEBUG] DodgyTransactions2015.csv - Transaction 111 validated!
+[2022-04-25T12:45:30.436] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.437] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.437] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.437] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.437] [DEBUG] DodgyTransactions2015.csv - Transaction 112 validated!
+[2022-04-25T12:45:30.437] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.437] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.437] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.437] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.437] [DEBUG] DodgyTransactions2015.csv - Transaction 113 validated!
+[2022-04-25T12:45:30.438] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.438] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.439] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.439] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.439] [DEBUG] DodgyTransactions2015.csv - Transaction 114 validated!
+[2022-04-25T12:45:30.439] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.439] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.439] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.440] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.440] [DEBUG] DodgyTransactions2015.csv - Transaction 115 validated!
+[2022-04-25T12:45:30.440] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.440] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.441] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.441] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.441] [DEBUG] DodgyTransactions2015.csv - Transaction 116 validated!
+[2022-04-25T12:45:30.441] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.441] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.441] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.441] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.441] [DEBUG] DodgyTransactions2015.csv - Transaction 117 validated!
+[2022-04-25T12:45:30.441] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.442] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.442] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.442] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.442] [DEBUG] DodgyTransactions2015.csv - Transaction 118 validated!
+[2022-04-25T12:45:30.442] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.442] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.442] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.443] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.443] [DEBUG] DodgyTransactions2015.csv - Transaction 119 validated!
+[2022-04-25T12:45:30.443] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.443] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.443] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.443] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.443] [DEBUG] DodgyTransactions2015.csv - Transaction 120 validated!
+[2022-04-25T12:45:30.443] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.444] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.444] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.444] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.444] [DEBUG] DodgyTransactions2015.csv - Transaction 121 validated!
+[2022-04-25T12:45:30.444] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.444] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.444] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.444] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.444] [DEBUG] DodgyTransactions2015.csv - Transaction 122 validated!
+[2022-04-25T12:45:30.445] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.445] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.445] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.445] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.445] [DEBUG] DodgyTransactions2015.csv - Transaction 123 validated!
+[2022-04-25T12:45:30.445] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.445] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.445] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.445] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.446] [DEBUG] DodgyTransactions2015.csv - Transaction 124 validated!
+[2022-04-25T12:45:30.446] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.446] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.446] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.446] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.446] [DEBUG] DodgyTransactions2015.csv - Transaction 125 validated!
+[2022-04-25T12:45:30.446] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.446] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.447] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.447] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.447] [DEBUG] DodgyTransactions2015.csv - Transaction 126 validated!
+[2022-04-25T12:45:30.447] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.447] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.447] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T12:45:30.447] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T12:45:30.447] [DEBUG] DodgyTransactions2015.csv - Transaction 127 validated!
+[2022-04-25T12:45:30.448] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.448] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.448] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.448] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.448] [DEBUG] DodgyTransactions2015.csv - Transaction 128 validated!
+[2022-04-25T12:45:30.448] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.448] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.448] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.449] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.449] [DEBUG] DodgyTransactions2015.csv - Transaction 129 validated!
+[2022-04-25T12:45:30.449] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.449] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.449] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.449] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.449] [DEBUG] DodgyTransactions2015.csv - Transaction 130 validated!
+[2022-04-25T12:45:30.449] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.450] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.450] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.450] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.450] [DEBUG] DodgyTransactions2015.csv - Transaction 131 validated!
+[2022-04-25T12:45:30.450] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.450] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.450] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.450] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.450] [DEBUG] DodgyTransactions2015.csv - Transaction 132 validated!
+[2022-04-25T12:45:30.451] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.451] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.451] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.451] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.451] [DEBUG] DodgyTransactions2015.csv - Transaction 133 validated!
+[2022-04-25T12:45:30.451] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.451] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.451] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.451] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.451] [DEBUG] DodgyTransactions2015.csv - Transaction 134 validated!
+[2022-04-25T12:45:30.452] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T12:45:30.452] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T12:45:30.452] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.452] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.452] [DEBUG] DodgyTransactions2015.csv - Transaction 135 validated!
+[2022-04-25T12:45:30.452] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.452] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.452] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.452] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.453] [DEBUG] DodgyTransactions2015.csv - Transaction 136 validated!
+[2022-04-25T12:45:30.453] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.453] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.453] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T12:45:30.453] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T12:45:30.453] [DEBUG] DodgyTransactions2015.csv - Transaction 137 validated!
+[2022-04-25T12:45:30.453] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T12:45:30.453] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T12:45:30.453] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.454] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.454] [DEBUG] DodgyTransactions2015.csv - Transaction 138 validated!
+[2022-04-25T12:45:30.454] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.454] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.454] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.454] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.454] [DEBUG] DodgyTransactions2015.csv - Transaction 139 validated!
+[2022-04-25T12:45:30.454] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T12:45:30.454] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T12:45:30.455] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.455] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.455] [DEBUG] DodgyTransactions2015.csv - Transaction 140 validated!
+[2022-04-25T12:45:30.455] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T12:45:30.455] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T12:45:30.455] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.455] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.455] [DEBUG] DodgyTransactions2015.csv - Transaction 141 validated!
+[2022-04-25T12:45:30.455] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T12:45:30.456] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T12:45:30.456] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T12:45:30.456] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T12:45:30.456] [DEBUG] DodgyTransactions2015.csv - Transaction 142 validated!
+[2022-04-25T12:45:30.456] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T12:45:30.456] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T12:45:30.456] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T12:45:30.456] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T12:45:30.456] [DEBUG] DodgyTransactions2015.csv - Transaction 143 validated!
+[2022-04-25T12:45:30.457] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T12:45:30.457] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T12:45:30.457] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T12:45:30.457] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T12:45:30.457] [DEBUG] DodgyTransactions2015.csv - Transaction 144 validated!
+[2022-04-25T12:45:30.458] [DEBUG] DodgyTransactions2015.csv - Requesting command from the user
+[2022-04-25T12:45:35.255] [DEBUG] DodgyTransactions2015.csv - Listing all accounts and balances
+[2022-04-25T12:45:35.258] [DEBUG] DodgyTransactions2015.csv - Accounts successfully printed
+[2022-04-25T12:45:35.258] [DEBUG] DodgyTransactions2015.csv - Requesting command from the user
+[2022-04-25T13:36:22.845] [DEBUG] DodgyTransactions2015.csv - Invalid request by the user
+[2022-04-25T13:36:23.118] [DEBUG] DodgyTransactions2015.csv - Requesting command from the user
+[2022-04-25T13:36:33.214] [DEBUG] DodgyTransactions2015.csv - Listing transactions for Sam N
+[2022-04-25T13:36:33.218] [DEBUG] DodgyTransactions2015.csv - Transactions listed
+[2022-04-25T13:36:33.219] [DEBUG] DodgyTransactions2015.csv - Requesting command from the user
+[2022-04-25T13:36:53.362] [DEBUG] DodgyTransactions2015.csv - Programme exited
+[2022-04-25T13:39:48.984] [DEBUG] DodgyTransactions2015.csv - Parse complete
+[2022-04-25T13:39:48.986] [DEBUG] DodgyTransactions2015.csv - Iterating through transactions...
+[2022-04-25T13:39:48.986] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:39:48.987] [DEBUG] DodgyTransactions2015.csv - Laura B not in array
+[2022-04-25T13:39:48.987] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:39:48.987] [DEBUG] DodgyTransactions2015.csv - Sarah T not in array
+[2022-04-25T13:39:48.988] [DEBUG] DodgyTransactions2015.csv - Transaction 1 validated!
+[2022-04-25T13:39:48.988] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:39:48.988] [DEBUG] DodgyTransactions2015.csv - Stephen S not in array
+[2022-04-25T13:39:48.988] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:39:48.988] [DEBUG] DodgyTransactions2015.csv - Gergana I not in array
+[2022-04-25T13:39:48.989] [DEBUG] DodgyTransactions2015.csv - Transaction 2 validated!
+[2022-04-25T13:39:48.989] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:39:48.989] [DEBUG] DodgyTransactions2015.csv - Ben B not in array
+[2022-04-25T13:39:48.989] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:39:48.990] [DEBUG] DodgyTransactions2015.csv - Jon A not in array
+[2022-04-25T13:39:48.990] [DEBUG] DodgyTransactions2015.csv - Transaction 3 validated!
+[2022-04-25T13:39:48.990] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:39:48.990] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:39:48.991] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:39:48.991] [DEBUG] DodgyTransactions2015.csv - Todd not in array
+[2022-04-25T13:39:48.991] [DEBUG] DodgyTransactions2015.csv - Transaction 4 validated!
+[2022-04-25T13:39:48.991] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:39:48.991] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:39:48.992] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:39:48.992] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:39:48.992] [DEBUG] DodgyTransactions2015.csv - Transaction 5 validated!
+[2022-04-25T13:39:48.992] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:39:48.992] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:39:48.993] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:39:48.993] [DEBUG] DodgyTransactions2015.csv - Rob S not in array
+[2022-04-25T13:39:48.993] [DEBUG] DodgyTransactions2015.csv - Transaction 6 validated!
+[2022-04-25T13:39:48.993] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:39:48.993] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:39:48.994] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:39:48.994] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:39:48.994] [DEBUG] DodgyTransactions2015.csv - Transaction 7 validated!
+[2022-04-25T13:39:48.994] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:39:48.994] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:39:48.995] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:39:48.995] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:39:48.995] [DEBUG] DodgyTransactions2015.csv - Transaction 8 validated!
+[2022-04-25T13:39:48.995] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:39:48.996] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:39:48.996] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:39:48.996] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:39:48.996] [DEBUG] DodgyTransactions2015.csv - Transaction 9 validated!
+[2022-04-25T13:39:48.996] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:39:48.997] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:39:48.997] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:39:48.997] [DEBUG] DodgyTransactions2015.csv - Chris W not in array
+[2022-04-25T13:39:48.997] [DEBUG] DodgyTransactions2015.csv - Transaction 10 validated!
+[2022-04-25T13:39:48.997] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:39:48.997] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:39:48.997] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:39:48.997] [DEBUG] DodgyTransactions2015.csv - Tim L not in array
+[2022-04-25T13:39:48.998] [DEBUG] DodgyTransactions2015.csv - Transaction 11 validated!
+[2022-04-25T13:39:48.998] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:39:48.998] [DEBUG] DodgyTransactions2015.csv - Sam N not in array
+[2022-04-25T13:39:48.998] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:39:48.998] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:39:48.998] [DEBUG] DodgyTransactions2015.csv - Transaction 12 validated!
+[2022-04-25T13:39:48.998] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:39:48.998] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:39:48.999] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:39:48.999] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:39:48.999] [DEBUG] DodgyTransactions2015.csv - Transaction 13 validated!
+[2022-04-25T13:39:48.999] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:39:48.999] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:39:48.999] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:39:48.999] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:39:48.999] [DEBUG] DodgyTransactions2015.csv - Transaction 14 validated!
+[2022-04-25T13:39:49.000] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:39:49.000] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:39:49.000] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:39:49.000] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:39:49.000] [DEBUG] DodgyTransactions2015.csv - Transaction 15 validated!
+[2022-04-25T13:39:49.000] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:39:49.000] [DEBUG] DodgyTransactions2015.csv - Dan W not in array
+[2022-04-25T13:39:49.001] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:39:49.002] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:39:49.002] [DEBUG] DodgyTransactions2015.csv - Transaction 16 validated!
+[2022-04-25T13:39:49.002] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:39:49.002] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:39:49.002] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:39:49.002] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:39:49.002] [DEBUG] DodgyTransactions2015.csv - Transaction 17 validated!
+[2022-04-25T13:39:49.003] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:39:49.003] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:39:49.003] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:39:49.003] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:39:49.003] [DEBUG] DodgyTransactions2015.csv - Transaction 18 validated!
+[2022-04-25T13:39:49.003] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:39:49.003] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:39:49.003] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:39:49.003] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:39:49.004] [DEBUG] DodgyTransactions2015.csv - Transaction 19 validated!
+[2022-04-25T13:39:49.004] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:39:49.004] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:39:49.004] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:39:49.004] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:39:49.004] [DEBUG] DodgyTransactions2015.csv - Transaction 20 validated!
+[2022-04-25T13:39:49.004] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:39:49.004] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:39:49.005] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:39:49.005] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:39:49.005] [DEBUG] DodgyTransactions2015.csv - Transaction 21 validated!
+[2022-04-25T13:39:49.005] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:39:49.005] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:39:49.005] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:39:49.005] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:39:49.005] [DEBUG] DodgyTransactions2015.csv - Transaction 22 validated!
+[2022-04-25T13:39:49.005] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:39:49.006] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:39:49.006] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:39:49.006] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:39:49.006] [DEBUG] DodgyTransactions2015.csv - Transaction 23 validated!
+[2022-04-25T13:39:49.006] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:39:49.006] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:39:49.006] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:39:49.006] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:39:49.007] [DEBUG] DodgyTransactions2015.csv - Transaction 24 validated!
+[2022-04-25T13:39:49.007] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:39:49.007] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:39:49.007] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:39:49.007] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:39:49.007] [DEBUG] DodgyTransactions2015.csv - Transaction 25 validated!
+[2022-04-25T13:39:49.007] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:39:49.007] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:39:49.008] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:39:49.008] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:39:49.008] [DEBUG] DodgyTransactions2015.csv - Transaction 26 validated!
+[2022-04-25T13:39:49.008] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:39:49.008] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:39:49.008] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:39:49.008] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:39:49.008] [ERROR] DodgyTransactions2015.csv - One Cheeseburger on transaction 27 is not a cash balance
+[2022-04-25T13:39:49.009] [DEBUG] DodgyTransactions2015.csv - Transaction 27 validated!
+[2022-04-25T13:39:49.009] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:39:49.009] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:39:49.009] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:39:49.009] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:39:49.009] [DEBUG] DodgyTransactions2015.csv - Transaction 28 validated!
+[2022-04-25T13:39:49.010] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:39:49.010] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:39:49.010] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:39:49.010] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:39:49.010] [DEBUG] DodgyTransactions2015.csv - Transaction 29 validated!
+[2022-04-25T13:39:49.010] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:39:49.010] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:39:49.010] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:39:49.011] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:39:49.011] [DEBUG] DodgyTransactions2015.csv - Transaction 30 validated!
+[2022-04-25T13:39:49.011] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:39:49.011] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:39:49.011] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:39:49.011] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:39:49.012] [DEBUG] DodgyTransactions2015.csv - Transaction 31 validated!
+[2022-04-25T13:39:49.012] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:39:49.012] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:39:49.012] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:39:49.012] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:39:49.012] [DEBUG] DodgyTransactions2015.csv - Transaction 32 validated!
+[2022-04-25T13:39:49.012] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:39:49.012] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:39:49.013] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:39:49.013] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:39:49.013] [DEBUG] DodgyTransactions2015.csv - Transaction 33 validated!
+[2022-04-25T13:39:49.013] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:39:49.013] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:39:49.013] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:39:49.013] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:39:49.013] [DEBUG] DodgyTransactions2015.csv - Transaction 34 validated!
+[2022-04-25T13:39:49.014] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:39:49.014] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:39:49.014] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:39:49.014] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:39:49.014] [DEBUG] DodgyTransactions2015.csv - Transaction 35 validated!
+[2022-04-25T13:39:49.014] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:39:49.014] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:39:49.014] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:39:49.014] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:39:49.015] [DEBUG] DodgyTransactions2015.csv - Transaction 36 validated!
+[2022-04-25T13:39:49.015] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:39:49.015] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:39:49.015] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:39:49.015] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:39:49.015] [DEBUG] DodgyTransactions2015.csv - Transaction 37 validated!
+[2022-04-25T13:39:49.015] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:39:49.015] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:39:49.016] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:39:49.017] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:39:49.017] [DEBUG] DodgyTransactions2015.csv - Transaction 38 validated!
+[2022-04-25T13:39:49.017] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:39:49.017] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:39:49.017] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:39:49.017] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:39:49.017] [DEBUG] DodgyTransactions2015.csv - Transaction 39 validated!
+[2022-04-25T13:39:49.018] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:39:49.018] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:39:49.018] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:39:49.018] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:39:49.018] [DEBUG] DodgyTransactions2015.csv - Transaction 40 validated!
+[2022-04-25T13:39:49.019] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:39:49.019] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:39:49.019] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:39:49.019] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:39:49.019] [DEBUG] DodgyTransactions2015.csv - Transaction 41 validated!
+[2022-04-25T13:39:49.019] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:39:49.019] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:39:49.020] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:39:49.020] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:39:49.020] [DEBUG] DodgyTransactions2015.csv - Transaction 42 validated!
+[2022-04-25T13:39:49.020] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:39:49.020] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:39:49.020] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:39:49.020] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:39:49.020] [DEBUG] DodgyTransactions2015.csv - Transaction 43 validated!
+[2022-04-25T13:39:49.020] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:39:49.021] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:39:49.021] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:39:49.021] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:39:49.021] [DEBUG] DodgyTransactions2015.csv - Transaction 44 validated!
+[2022-04-25T13:39:49.021] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:39:49.021] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:39:49.021] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:39:49.021] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:39:49.022] [DEBUG] DodgyTransactions2015.csv - Transaction 45 validated!
+[2022-04-25T13:39:49.022] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:39:49.022] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:39:49.022] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:39:49.022] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:39:49.022] [DEBUG] DodgyTransactions2015.csv - Transaction 46 validated!
+[2022-04-25T13:39:49.022] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:39:49.022] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:39:49.022] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:39:49.023] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:39:49.023] [DEBUG] DodgyTransactions2015.csv - Transaction 47 validated!
+[2022-04-25T13:39:49.023] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:39:49.023] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:39:49.023] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:39:49.023] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:39:49.023] [DEBUG] DodgyTransactions2015.csv - Transaction 48 validated!
+[2022-04-25T13:39:49.023] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:39:49.024] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:39:49.024] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:39:49.024] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:39:49.024] [DEBUG] DodgyTransactions2015.csv - Transaction 49 validated!
+[2022-04-25T13:39:49.024] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:39:49.024] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:39:49.024] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:39:49.024] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:39:49.025] [DEBUG] DodgyTransactions2015.csv - Transaction 50 validated!
+[2022-04-25T13:39:49.025] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:39:49.025] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:39:49.025] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:39:49.025] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:39:49.025] [ERROR] DodgyTransactions2015.csv - Last Thursday on transaction 51 is not the correct format
+[2022-04-25T13:39:49.025] [DEBUG] DodgyTransactions2015.csv - Transaction 51 validated!
+[2022-04-25T13:39:49.026] [DEBUG] DodgyTransactions2015.csv - Requesting command from the user
+[2022-04-25T13:39:54.815] [DEBUG] DodgyTransactions2015.csv - Listing all accounts and balances
+[2022-04-25T13:39:54.818] [DEBUG] DodgyTransactions2015.csv - Accounts successfully printed
+[2022-04-25T13:39:54.818] [DEBUG] DodgyTransactions2015.csv - Requesting command from the user
+[2022-04-25T13:40:05.751] [DEBUG] DodgyTransactions2015.csv - Listing transactions for Sam N
+[2022-04-25T13:40:05.754] [DEBUG] DodgyTransactions2015.csv - Transactions listed
+[2022-04-25T13:40:05.754] [DEBUG] DodgyTransactions2015.csv - Requesting command from the user
+[2022-04-25T13:40:28.835] [DEBUG] DodgyTransactions2015.csv - Programme exited
+[2022-04-25T13:40:40.143] [DEBUG] DodgyTransactions2015.csv - Parse complete
+[2022-04-25T13:40:40.144] [DEBUG] DodgyTransactions2015.csv - Iterating through transactions...
+[2022-04-25T13:40:40.144] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.144] [DEBUG] DodgyTransactions2015.csv - Jon A not in array
+[2022-04-25T13:40:40.145] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.145] [DEBUG] DodgyTransactions2015.csv - Sarah T not in array
+[2022-04-25T13:40:40.145] [DEBUG] DodgyTransactions2015.csv - Transaction 1 validated!
+[2022-04-25T13:40:40.145] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.145] [DEBUG] DodgyTransactions2015.csv - Stephen S not in array
+[2022-04-25T13:40:40.146] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.146] [DEBUG] DodgyTransactions2015.csv - Tim L not in array
+[2022-04-25T13:40:40.146] [DEBUG] DodgyTransactions2015.csv - Transaction 2 validated!
+[2022-04-25T13:40:40.146] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.146] [DEBUG] DodgyTransactions2015.csv - Laura B not in array
+[2022-04-25T13:40:40.146] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.146] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.147] [DEBUG] DodgyTransactions2015.csv - Transaction 3 validated!
+[2022-04-25T13:40:40.147] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.147] [DEBUG] DodgyTransactions2015.csv - Rob S not in array
+[2022-04-25T13:40:40.147] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.148] [DEBUG] DodgyTransactions2015.csv - Ben B not in array
+[2022-04-25T13:40:40.148] [DEBUG] DodgyTransactions2015.csv - Transaction 4 validated!
+[2022-04-25T13:40:40.148] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.148] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.148] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.148] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.148] [DEBUG] DodgyTransactions2015.csv - Transaction 5 validated!
+[2022-04-25T13:40:40.148] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.149] [DEBUG] DodgyTransactions2015.csv - Sam N not in array
+[2022-04-25T13:40:40.149] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.149] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.149] [DEBUG] DodgyTransactions2015.csv - Transaction 6 validated!
+[2022-04-25T13:40:40.149] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.149] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.149] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.149] [DEBUG] DodgyTransactions2015.csv - Gergana I not in array
+[2022-04-25T13:40:40.150] [DEBUG] DodgyTransactions2015.csv - Transaction 7 validated!
+[2022-04-25T13:40:40.150] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.150] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.150] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.150] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.150] [DEBUG] DodgyTransactions2015.csv - Transaction 8 validated!
+[2022-04-25T13:40:40.150] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.151] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.151] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.151] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.151] [DEBUG] DodgyTransactions2015.csv - Transaction 9 validated!
+[2022-04-25T13:40:40.151] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.151] [DEBUG] DodgyTransactions2015.csv - Todd not in array
+[2022-04-25T13:40:40.151] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.151] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.151] [DEBUG] DodgyTransactions2015.csv - Transaction 10 validated!
+[2022-04-25T13:40:40.152] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.152] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.152] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.152] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.152] [DEBUG] DodgyTransactions2015.csv - Transaction 11 validated!
+[2022-04-25T13:40:40.152] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.152] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.152] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.153] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.153] [DEBUG] DodgyTransactions2015.csv - Transaction 12 validated!
+[2022-04-25T13:40:40.153] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.153] [DEBUG] DodgyTransactions2015.csv - Chris W not in array
+[2022-04-25T13:40:40.153] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.155] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.155] [DEBUG] DodgyTransactions2015.csv - Transaction 13 validated!
+[2022-04-25T13:40:40.156] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.156] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.156] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.156] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.156] [DEBUG] DodgyTransactions2015.csv - Transaction 14 validated!
+[2022-04-25T13:40:40.156] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.156] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.156] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.157] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.157] [DEBUG] DodgyTransactions2015.csv - Transaction 15 validated!
+[2022-04-25T13:40:40.157] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.157] [DEBUG] DodgyTransactions2015.csv - Dan W not in array
+[2022-04-25T13:40:40.157] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.157] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.157] [DEBUG] DodgyTransactions2015.csv - Transaction 16 validated!
+[2022-04-25T13:40:40.157] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.158] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.158] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.158] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.158] [DEBUG] DodgyTransactions2015.csv - Transaction 17 validated!
+[2022-04-25T13:40:40.158] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.158] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.158] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.158] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.159] [DEBUG] DodgyTransactions2015.csv - Transaction 18 validated!
+[2022-04-25T13:40:40.159] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.159] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.159] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.159] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.159] [DEBUG] DodgyTransactions2015.csv - Transaction 19 validated!
+[2022-04-25T13:40:40.159] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.159] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.159] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.160] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.160] [DEBUG] DodgyTransactions2015.csv - Transaction 20 validated!
+[2022-04-25T13:40:40.160] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.160] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.160] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.160] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.160] [DEBUG] DodgyTransactions2015.csv - Transaction 21 validated!
+[2022-04-25T13:40:40.160] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.160] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.161] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.161] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.161] [DEBUG] DodgyTransactions2015.csv - Transaction 22 validated!
+[2022-04-25T13:40:40.161] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.161] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.161] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.161] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.161] [DEBUG] DodgyTransactions2015.csv - Transaction 23 validated!
+[2022-04-25T13:40:40.162] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.162] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.162] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.162] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.162] [DEBUG] DodgyTransactions2015.csv - Transaction 24 validated!
+[2022-04-25T13:40:40.162] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.162] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.162] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.162] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.163] [DEBUG] DodgyTransactions2015.csv - Transaction 25 validated!
+[2022-04-25T13:40:40.163] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.163] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.163] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.163] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.163] [DEBUG] DodgyTransactions2015.csv - Transaction 26 validated!
+[2022-04-25T13:40:40.164] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.164] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.164] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.164] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.164] [DEBUG] DodgyTransactions2015.csv - Transaction 27 validated!
+[2022-04-25T13:40:40.164] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.164] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.165] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.165] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.165] [DEBUG] DodgyTransactions2015.csv - Transaction 28 validated!
+[2022-04-25T13:40:40.165] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.165] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.165] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.165] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.165] [DEBUG] DodgyTransactions2015.csv - Transaction 29 validated!
+[2022-04-25T13:40:40.165] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.166] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.166] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.166] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.166] [DEBUG] DodgyTransactions2015.csv - Transaction 30 validated!
+[2022-04-25T13:40:40.166] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.166] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.166] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.166] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.167] [DEBUG] DodgyTransactions2015.csv - Transaction 31 validated!
+[2022-04-25T13:40:40.167] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.167] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.167] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.167] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.167] [DEBUG] DodgyTransactions2015.csv - Transaction 32 validated!
+[2022-04-25T13:40:40.167] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.167] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.167] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.168] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.168] [DEBUG] DodgyTransactions2015.csv - Transaction 33 validated!
+[2022-04-25T13:40:40.168] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.168] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.168] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.168] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.168] [DEBUG] DodgyTransactions2015.csv - Transaction 34 validated!
+[2022-04-25T13:40:40.169] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.169] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.170] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.170] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.170] [DEBUG] DodgyTransactions2015.csv - Transaction 35 validated!
+[2022-04-25T13:40:40.170] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.170] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.170] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.171] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.171] [DEBUG] DodgyTransactions2015.csv - Transaction 36 validated!
+[2022-04-25T13:40:40.171] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.171] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.171] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.171] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.171] [DEBUG] DodgyTransactions2015.csv - Transaction 37 validated!
+[2022-04-25T13:40:40.172] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.172] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.172] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.172] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.172] [DEBUG] DodgyTransactions2015.csv - Transaction 38 validated!
+[2022-04-25T13:40:40.173] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.173] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.173] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.173] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.173] [DEBUG] DodgyTransactions2015.csv - Transaction 39 validated!
+[2022-04-25T13:40:40.173] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.174] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.174] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.174] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.174] [DEBUG] DodgyTransactions2015.csv - Transaction 40 validated!
+[2022-04-25T13:40:40.174] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.174] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.174] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.175] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.175] [DEBUG] DodgyTransactions2015.csv - Transaction 41 validated!
+[2022-04-25T13:40:40.175] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.175] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.175] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.175] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.175] [DEBUG] DodgyTransactions2015.csv - Transaction 42 validated!
+[2022-04-25T13:40:40.175] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.175] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.176] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.176] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.176] [DEBUG] DodgyTransactions2015.csv - Transaction 43 validated!
+[2022-04-25T13:40:40.176] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.176] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.176] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.176] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.176] [DEBUG] DodgyTransactions2015.csv - Transaction 44 validated!
+[2022-04-25T13:40:40.176] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.177] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.177] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.177] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.177] [DEBUG] DodgyTransactions2015.csv - Transaction 45 validated!
+[2022-04-25T13:40:40.177] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.177] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.177] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.177] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.177] [DEBUG] DodgyTransactions2015.csv - Transaction 46 validated!
+[2022-04-25T13:40:40.178] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.178] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.178] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.178] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.178] [DEBUG] DodgyTransactions2015.csv - Transaction 47 validated!
+[2022-04-25T13:40:40.178] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.178] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.178] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.179] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.179] [DEBUG] DodgyTransactions2015.csv - Transaction 48 validated!
+[2022-04-25T13:40:40.179] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.179] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.179] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.179] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.179] [DEBUG] DodgyTransactions2015.csv - Transaction 49 validated!
+[2022-04-25T13:40:40.179] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.179] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.180] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.180] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.180] [DEBUG] DodgyTransactions2015.csv - Transaction 50 validated!
+[2022-04-25T13:40:40.180] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.180] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.181] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.181] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.181] [DEBUG] DodgyTransactions2015.csv - Transaction 51 validated!
+[2022-04-25T13:40:40.181] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.181] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.181] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.181] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.182] [DEBUG] DodgyTransactions2015.csv - Transaction 52 validated!
+[2022-04-25T13:40:40.182] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.182] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.182] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.182] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.182] [DEBUG] DodgyTransactions2015.csv - Transaction 53 validated!
+[2022-04-25T13:40:40.182] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.182] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.182] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.183] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.183] [DEBUG] DodgyTransactions2015.csv - Transaction 54 validated!
+[2022-04-25T13:40:40.183] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.183] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.183] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.183] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.183] [DEBUG] DodgyTransactions2015.csv - Transaction 55 validated!
+[2022-04-25T13:40:40.183] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.184] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.184] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.184] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.184] [DEBUG] DodgyTransactions2015.csv - Transaction 56 validated!
+[2022-04-25T13:40:40.184] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.184] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.184] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.184] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.185] [DEBUG] DodgyTransactions2015.csv - Transaction 57 validated!
+[2022-04-25T13:40:40.185] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.185] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.185] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.185] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.185] [DEBUG] DodgyTransactions2015.csv - Transaction 58 validated!
+[2022-04-25T13:40:40.185] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.185] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.186] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.186] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.187] [DEBUG] DodgyTransactions2015.csv - Transaction 59 validated!
+[2022-04-25T13:40:40.187] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.187] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.187] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.187] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.187] [DEBUG] DodgyTransactions2015.csv - Transaction 60 validated!
+[2022-04-25T13:40:40.187] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.187] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.188] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.188] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.188] [DEBUG] DodgyTransactions2015.csv - Transaction 61 validated!
+[2022-04-25T13:40:40.188] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.188] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.188] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.188] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.188] [DEBUG] DodgyTransactions2015.csv - Transaction 62 validated!
+[2022-04-25T13:40:40.189] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.189] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.189] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.189] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.189] [DEBUG] DodgyTransactions2015.csv - Transaction 63 validated!
+[2022-04-25T13:40:40.189] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.189] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.189] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.189] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.190] [DEBUG] DodgyTransactions2015.csv - Transaction 64 validated!
+[2022-04-25T13:40:40.190] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.190] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.190] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.190] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.190] [DEBUG] DodgyTransactions2015.csv - Transaction 65 validated!
+[2022-04-25T13:40:40.190] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.190] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.191] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.191] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.191] [DEBUG] DodgyTransactions2015.csv - Transaction 66 validated!
+[2022-04-25T13:40:40.191] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.191] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.191] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.191] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.191] [DEBUG] DodgyTransactions2015.csv - Transaction 67 validated!
+[2022-04-25T13:40:40.191] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.192] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.192] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.192] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.193] [DEBUG] DodgyTransactions2015.csv - Transaction 68 validated!
+[2022-04-25T13:40:40.193] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.193] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.193] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.194] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.194] [DEBUG] DodgyTransactions2015.csv - Transaction 69 validated!
+[2022-04-25T13:40:40.194] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.194] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.194] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.194] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.194] [DEBUG] DodgyTransactions2015.csv - Transaction 70 validated!
+[2022-04-25T13:40:40.194] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.195] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.195] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.195] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.195] [DEBUG] DodgyTransactions2015.csv - Transaction 71 validated!
+[2022-04-25T13:40:40.195] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.195] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.195] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.195] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.195] [DEBUG] DodgyTransactions2015.csv - Transaction 72 validated!
+[2022-04-25T13:40:40.196] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.196] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.196] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.196] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.196] [DEBUG] DodgyTransactions2015.csv - Transaction 73 validated!
+[2022-04-25T13:40:40.196] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.196] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.196] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.197] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.197] [DEBUG] DodgyTransactions2015.csv - Transaction 74 validated!
+[2022-04-25T13:40:40.197] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.197] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.197] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.197] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.198] [DEBUG] DodgyTransactions2015.csv - Transaction 75 validated!
+[2022-04-25T13:40:40.198] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.198] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.198] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.198] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.198] [DEBUG] DodgyTransactions2015.csv - Transaction 76 validated!
+[2022-04-25T13:40:40.198] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.198] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.199] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.199] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.199] [DEBUG] DodgyTransactions2015.csv - Transaction 77 validated!
+[2022-04-25T13:40:40.199] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.199] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.200] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.200] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.200] [DEBUG] DodgyTransactions2015.csv - Transaction 78 validated!
+[2022-04-25T13:40:40.200] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.200] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.200] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.200] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.201] [DEBUG] DodgyTransactions2015.csv - Transaction 79 validated!
+[2022-04-25T13:40:40.201] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.201] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.201] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.201] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.202] [DEBUG] DodgyTransactions2015.csv - Transaction 80 validated!
+[2022-04-25T13:40:40.202] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.202] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.202] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.202] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.202] [DEBUG] DodgyTransactions2015.csv - Transaction 81 validated!
+[2022-04-25T13:40:40.203] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.203] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.203] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.203] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.203] [DEBUG] DodgyTransactions2015.csv - Transaction 82 validated!
+[2022-04-25T13:40:40.203] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.204] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.204] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.204] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.204] [DEBUG] DodgyTransactions2015.csv - Transaction 83 validated!
+[2022-04-25T13:40:40.204] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.204] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.204] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.204] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.204] [DEBUG] DodgyTransactions2015.csv - Transaction 84 validated!
+[2022-04-25T13:40:40.205] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.205] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.205] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.205] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.205] [DEBUG] DodgyTransactions2015.csv - Transaction 85 validated!
+[2022-04-25T13:40:40.205] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.205] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.205] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.206] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.206] [DEBUG] DodgyTransactions2015.csv - Transaction 86 validated!
+[2022-04-25T13:40:40.206] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.206] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.206] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.206] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.206] [DEBUG] DodgyTransactions2015.csv - Transaction 87 validated!
+[2022-04-25T13:40:40.206] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.206] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.207] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.207] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.207] [DEBUG] DodgyTransactions2015.csv - Transaction 88 validated!
+[2022-04-25T13:40:40.207] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.207] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.207] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.207] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.207] [DEBUG] DodgyTransactions2015.csv - Transaction 89 validated!
+[2022-04-25T13:40:40.207] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.208] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.208] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.208] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.208] [DEBUG] DodgyTransactions2015.csv - Transaction 90 validated!
+[2022-04-25T13:40:40.208] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.208] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.208] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.208] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.208] [DEBUG] DodgyTransactions2015.csv - Transaction 91 validated!
+[2022-04-25T13:40:40.209] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.209] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.209] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.209] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.209] [DEBUG] DodgyTransactions2015.csv - Transaction 92 validated!
+[2022-04-25T13:40:40.209] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.209] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.209] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.209] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.210] [DEBUG] DodgyTransactions2015.csv - Transaction 93 validated!
+[2022-04-25T13:40:40.210] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.210] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.210] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.210] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.210] [DEBUG] DodgyTransactions2015.csv - Transaction 94 validated!
+[2022-04-25T13:40:40.210] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.210] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.211] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.211] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.211] [DEBUG] DodgyTransactions2015.csv - Transaction 95 validated!
+[2022-04-25T13:40:40.211] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.211] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.211] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.211] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.212] [DEBUG] DodgyTransactions2015.csv - Transaction 96 validated!
+[2022-04-25T13:40:40.212] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.212] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.212] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.212] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.212] [DEBUG] DodgyTransactions2015.csv - Transaction 97 validated!
+[2022-04-25T13:40:40.212] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.212] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.213] [DEBUG] DodgyTransactions2015.csv - Searching people array for Stephen S
+[2022-04-25T13:40:40.213] [DEBUG] DodgyTransactions2015.csv - Stephen S already in array
+[2022-04-25T13:40:40.213] [DEBUG] DodgyTransactions2015.csv - Transaction 98 validated!
+[2022-04-25T13:40:40.213] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.213] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.213] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.214] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.214] [DEBUG] DodgyTransactions2015.csv - Transaction 99 validated!
+[2022-04-25T13:40:40.214] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.214] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.214] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.214] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.215] [DEBUG] DodgyTransactions2015.csv - Transaction 100 validated!
+[2022-04-25T13:40:40.215] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.215] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.215] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.215] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.215] [DEBUG] DodgyTransactions2015.csv - Transaction 101 validated!
+[2022-04-25T13:40:40.216] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.216] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.216] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.216] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.216] [DEBUG] DodgyTransactions2015.csv - Transaction 102 validated!
+[2022-04-25T13:40:40.216] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.217] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.217] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.217] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.217] [DEBUG] DodgyTransactions2015.csv - Transaction 103 validated!
+[2022-04-25T13:40:40.217] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.218] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.218] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.218] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.218] [DEBUG] DodgyTransactions2015.csv - Transaction 104 validated!
+[2022-04-25T13:40:40.218] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.218] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.219] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.219] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.219] [DEBUG] DodgyTransactions2015.csv - Transaction 105 validated!
+[2022-04-25T13:40:40.219] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.219] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.219] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.219] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.220] [DEBUG] DodgyTransactions2015.csv - Transaction 106 validated!
+[2022-04-25T13:40:40.220] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.220] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.221] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.221] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.221] [DEBUG] DodgyTransactions2015.csv - Transaction 107 validated!
+[2022-04-25T13:40:40.221] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.222] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.222] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.222] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.222] [DEBUG] DodgyTransactions2015.csv - Transaction 108 validated!
+[2022-04-25T13:40:40.222] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.222] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.222] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.222] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.222] [DEBUG] DodgyTransactions2015.csv - Transaction 109 validated!
+[2022-04-25T13:40:40.223] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.223] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.223] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.223] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.223] [DEBUG] DodgyTransactions2015.csv - Transaction 110 validated!
+[2022-04-25T13:40:40.223] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.223] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.223] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.224] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.224] [DEBUG] DodgyTransactions2015.csv - Transaction 111 validated!
+[2022-04-25T13:40:40.224] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.224] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.224] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.224] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.224] [DEBUG] DodgyTransactions2015.csv - Transaction 112 validated!
+[2022-04-25T13:40:40.224] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.225] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.225] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.225] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.225] [DEBUG] DodgyTransactions2015.csv - Transaction 113 validated!
+[2022-04-25T13:40:40.225] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.225] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.225] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.225] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.225] [DEBUG] DodgyTransactions2015.csv - Transaction 114 validated!
+[2022-04-25T13:40:40.226] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.226] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.226] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.226] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.227] [DEBUG] DodgyTransactions2015.csv - Transaction 115 validated!
+[2022-04-25T13:40:40.227] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.227] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.227] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.227] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.227] [DEBUG] DodgyTransactions2015.csv - Transaction 116 validated!
+[2022-04-25T13:40:40.227] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.228] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.228] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.228] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.228] [DEBUG] DodgyTransactions2015.csv - Transaction 117 validated!
+[2022-04-25T13:40:40.228] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.228] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.228] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.228] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.229] [DEBUG] DodgyTransactions2015.csv - Transaction 118 validated!
+[2022-04-25T13:40:40.229] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.229] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.229] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.229] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.229] [DEBUG] DodgyTransactions2015.csv - Transaction 119 validated!
+[2022-04-25T13:40:40.230] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.230] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.230] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.230] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.231] [DEBUG] DodgyTransactions2015.csv - Transaction 120 validated!
+[2022-04-25T13:40:40.231] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.231] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.231] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.231] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.231] [DEBUG] DodgyTransactions2015.csv - Transaction 121 validated!
+[2022-04-25T13:40:40.231] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.231] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.231] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.232] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.232] [DEBUG] DodgyTransactions2015.csv - Transaction 122 validated!
+[2022-04-25T13:40:40.232] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.232] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.232] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.232] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.232] [DEBUG] DodgyTransactions2015.csv - Transaction 123 validated!
+[2022-04-25T13:40:40.232] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.233] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.233] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.233] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.233] [DEBUG] DodgyTransactions2015.csv - Transaction 124 validated!
+[2022-04-25T13:40:40.233] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.233] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.233] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.233] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.234] [DEBUG] DodgyTransactions2015.csv - Transaction 125 validated!
+[2022-04-25T13:40:40.234] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.234] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.234] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.234] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.234] [DEBUG] DodgyTransactions2015.csv - Transaction 126 validated!
+[2022-04-25T13:40:40.234] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.234] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.234] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.235] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.235] [DEBUG] DodgyTransactions2015.csv - Transaction 127 validated!
+[2022-04-25T13:40:40.235] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.235] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.235] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.235] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.235] [DEBUG] DodgyTransactions2015.csv - Transaction 128 validated!
+[2022-04-25T13:40:40.235] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.235] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.236] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.236] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.236] [DEBUG] DodgyTransactions2015.csv - Transaction 129 validated!
+[2022-04-25T13:40:40.236] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.236] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.236] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.236] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.236] [DEBUG] DodgyTransactions2015.csv - Transaction 130 validated!
+[2022-04-25T13:40:40.236] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.237] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.237] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.237] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.237] [DEBUG] DodgyTransactions2015.csv - Transaction 131 validated!
+[2022-04-25T13:40:40.237] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.237] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.237] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.237] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.237] [DEBUG] DodgyTransactions2015.csv - Transaction 132 validated!
+[2022-04-25T13:40:40.238] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.238] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.238] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sarah T
+[2022-04-25T13:40:40.238] [DEBUG] DodgyTransactions2015.csv - Sarah T already in array
+[2022-04-25T13:40:40.238] [DEBUG] DodgyTransactions2015.csv - Transaction 133 validated!
+[2022-04-25T13:40:40.238] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.238] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.238] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.238] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.239] [DEBUG] DodgyTransactions2015.csv - Transaction 134 validated!
+[2022-04-25T13:40:40.239] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.239] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.239] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.239] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.239] [DEBUG] DodgyTransactions2015.csv - Transaction 135 validated!
+[2022-04-25T13:40:40.239] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.239] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.239] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.240] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.240] [DEBUG] DodgyTransactions2015.csv - Transaction 136 validated!
+[2022-04-25T13:40:40.240] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.240] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.240] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.240] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.241] [DEBUG] DodgyTransactions2015.csv - Transaction 137 validated!
+[2022-04-25T13:40:40.241] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.241] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.241] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.241] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.241] [DEBUG] DodgyTransactions2015.csv - Transaction 138 validated!
+[2022-04-25T13:40:40.241] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.241] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.241] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.242] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.242] [DEBUG] DodgyTransactions2015.csv - Transaction 139 validated!
+[2022-04-25T13:40:40.242] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.242] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.242] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.242] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.242] [DEBUG] DodgyTransactions2015.csv - Transaction 140 validated!
+[2022-04-25T13:40:40.242] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.242] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.243] [DEBUG] DodgyTransactions2015.csv - Searching people array for Tim L
+[2022-04-25T13:40:40.243] [DEBUG] DodgyTransactions2015.csv - Tim L already in array
+[2022-04-25T13:40:40.243] [DEBUG] DodgyTransactions2015.csv - Transaction 141 validated!
+[2022-04-25T13:40:40.243] [DEBUG] DodgyTransactions2015.csv - Searching people array for Chris W
+[2022-04-25T13:40:40.243] [DEBUG] DodgyTransactions2015.csv - Chris W already in array
+[2022-04-25T13:40:40.243] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.243] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.243] [DEBUG] DodgyTransactions2015.csv - Transaction 142 validated!
+[2022-04-25T13:40:40.243] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.244] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.244] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.244] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.244] [DEBUG] DodgyTransactions2015.csv - Transaction 143 validated!
+[2022-04-25T13:40:40.244] [DEBUG] DodgyTransactions2015.csv - Searching people array for Gergana I
+[2022-04-25T13:40:40.244] [DEBUG] DodgyTransactions2015.csv - Gergana I already in array
+[2022-04-25T13:40:40.244] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.244] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.244] [DEBUG] DodgyTransactions2015.csv - Transaction 144 validated!
+[2022-04-25T13:40:40.245] [DEBUG] DodgyTransactions2015.csv - Searching people array for Dan W
+[2022-04-25T13:40:40.245] [DEBUG] DodgyTransactions2015.csv - Dan W already in array
+[2022-04-25T13:40:40.245] [DEBUG] DodgyTransactions2015.csv - Searching people array for Jon A
+[2022-04-25T13:40:40.245] [DEBUG] DodgyTransactions2015.csv - Jon A already in array
+[2022-04-25T13:40:40.245] [DEBUG] DodgyTransactions2015.csv - Transaction 145 validated!
+[2022-04-25T13:40:40.245] [DEBUG] DodgyTransactions2015.csv - Searching people array for Todd
+[2022-04-25T13:40:40.245] [DEBUG] DodgyTransactions2015.csv - Todd already in array
+[2022-04-25T13:40:40.245] [DEBUG] DodgyTransactions2015.csv - Searching people array for Rob S
+[2022-04-25T13:40:40.245] [DEBUG] DodgyTransactions2015.csv - Rob S already in array
+[2022-04-25T13:40:40.246] [DEBUG] DodgyTransactions2015.csv - Transaction 146 validated!
+[2022-04-25T13:40:40.246] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.246] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.246] [DEBUG] DodgyTransactions2015.csv - Searching people array for Laura B
+[2022-04-25T13:40:40.246] [DEBUG] DodgyTransactions2015.csv - Laura B already in array
+[2022-04-25T13:40:40.246] [DEBUG] DodgyTransactions2015.csv - Transaction 147 validated!
+[2022-04-25T13:40:40.246] [DEBUG] DodgyTransactions2015.csv - Searching people array for Ben B
+[2022-04-25T13:40:40.246] [DEBUG] DodgyTransactions2015.csv - Ben B already in array
+[2022-04-25T13:40:40.246] [DEBUG] DodgyTransactions2015.csv - Searching people array for Sam N
+[2022-04-25T13:40:40.247] [DEBUG] DodgyTransactions2015.csv - Sam N already in array
+[2022-04-25T13:40:40.247] [DEBUG] DodgyTransactions2015.csv - Transaction 148 validated!
+[2022-04-25T13:40:40.247] [DEBUG] DodgyTransactions2015.csv - Requesting command from the user
+[2022-04-25T13:40:44.151] [DEBUG] DodgyTransactions2015.csv - Listing all accounts and balances
+[2022-04-25T13:40:44.154] [DEBUG] DodgyTransactions2015.csv - Accounts successfully printed
+[2022-04-25T13:40:44.155] [DEBUG] DodgyTransactions2015.csv - Requesting command from the user
+[2022-04-25T13:42:54.981] [DEBUG] DodgyTransactions2015.csv - Programme exited

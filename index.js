@@ -1,30 +1,10 @@
 const fs = require('fs');
 const papa = require('papaparse');
 const readlineSync = require("readline-sync");
-const file = fs.createReadStream('DodgyTransactions2015.csv');
+
 const log4js = require("log4js");
 const logger = log4js.getLogger('DodgyTransactions2015.csv');
-const transactions2013 = require("./Transactions2013.json")
 const moment = require("moment");
-// moment().format();
-
-// console.log(transactions2013.length)
-let transactionsArr = []
-for (let i = 0; i < transactions2013.length; i++) {
-    const transaction = JSON.stringify(transactions2013[i])
-    const transactionArr = JSON.parse(transaction, (key, value) => {
-        if (key == "Date") {
-            return moment(value, "YYYY-MM-DD").format("DD/MM/YYYY")
-        } else {
-            return value
-        }
-    })
-    transactionsArr.push(transactionArr)
-}
-// console.log(transactionsArr)
-
-// let parsedTransactions = JSON.parse(JSON.stringify(transactions2013[0]))
-// console.log(parsedTransactions)
 
 log4js.configure({
     appenders: {
@@ -191,13 +171,32 @@ const handleParseResults = (results, fileType) => {
     }
 }
 
-let userFile = readlineSync.question('Please enter a file to process, or type "exit" to quit.')
-if (userFile.subStr(-3) == "json") {
+let userFile = readlineSync.question('Please enter a file to process with "Import File [filename], or type "exit" to quit.')
+console.log(userFile.slice(-4))
+if (userFile.slice(-4) === "json") {
+    const transactions = require(`./${userFile}`)
+    let transactionsArr = []
 
+    for (let i = 0; i < transactions.length; i++) {
+        const transaction = JSON.stringify(transactions[i])
+        const transactionArr = JSON.parse(transaction, (key, value) => {
+            if (key == "Date") {
+                return moment(value, "YYYY-MM-DD").format("DD/MM/YYYY")
+            } else {
+                return value
+            }
+        })
+        transactionsArr.push(transactionArr)
+    }
+
+    handleParseResults(transactionsArr, "json")
+} else if (userFile.slice(-3) === "csv") {
+    const file = fs.createReadStream(`${userFile}`);
+    papa.parse(file, { complete: handleParseResults });
 }
-logger.debug(`Parsing file${file.path}`)
-handleParseResults(transactionsArr, "json")
-// papa.parse(file, { complete: handleParseResults });
+// logger.debug(`Parsing file${file.path}`)
+
+
 
 
 
