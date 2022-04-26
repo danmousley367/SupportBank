@@ -5,7 +5,7 @@ const log4js = require("log4js");
 const moment = require("moment");
 const xml2js = require('xml2js');
 
-const userFile = readlineSync.question('Please enter a file to process with "Import File [filename], or type "exit" to quit.')
+const userFile = readlineSync.question('Please enter your file name: ')
 const logger = log4js.getLogger(`${userFile}`);
 
 log4js.configure({
@@ -48,20 +48,9 @@ class Person {
     }
 }
 
-class Transaction {
-    constructor(date, nameFrom, nameTo, narrative, amount, reason ) {
-        this.date = date
-        this.nameFrom = nameFrom
-        this.nameTo = nameTo
-        this.narrative = narrative
-        this.amount = amount
-        this.reason = reason
-    }
-}
-
 const handleParseResults = (results, fileType) => {
     logger.debug("Parse complete")
-    const records = fileType === "json" ? results : results.data
+    const records = fileType === "json" || fileType === "xml" ? results : results.data
     const people = []
 
     const checkPeople = (name) => {
@@ -82,7 +71,7 @@ const handleParseResults = (results, fileType) => {
 
     //Iterate through each transaction
     logger.debug("Iterating through transactions...")
-    for (let i = 1; i < records.length; i++) { // Starting at i = 1 to skip header
+    for (let i = fileType === "csv" ? 1 : 0; i < records.length; i++) { // Starting at i = 1 to skip header
         let [date, nameFrom, nameTo, narrative, amountString] = ["", "", "", "", ""]
         let amount = 0.00
         if (fileType === "json") {
@@ -171,18 +160,24 @@ const handleParseResults = (results, fileType) => {
     }
 }
 
+const formatDate = (date) => {
+    const firstDate = moment("20120103", "YYYYMMDD") //First working day of 2012
+    const days = parseInt(date) - 40909 // Number of days since first working day of the year
+    const dateNow = firstDate.add(days, 'days').format("DD/MM/YYYY")
+    return dateNow
+}
+
 const handleXML = (transactions) => {
     const parsedTransactions = []
     transactions.forEach((transaction) => {
-        // console.log(transaction)
-        const date = moment(transaction.$.Date).format("DD/MM/YYYY")
+        const date = formatDate(transaction.$.Date)
         const from = transaction.Parties[0].From[0]
         const to = transaction.Parties[0].To[0]
         const narrative = transaction.Description[0]
         const amount = transaction.Value[0]
         parsedTransactions.push([date, from, to, narrative, amount])
     })
-    console.log(parsedTransactions)
+    handleParseResults(parsedTransactions, "xml")
 }
 
 if (userFile.slice(-4) === "json") {
